@@ -1,0 +1,42 @@
+<div class="home-container">
+    <div class="header">
+        <div class="main">
+            <div class="input-area">
+                <i class="icon-search"></i>
+                <a class="keywords">影视 图书 唱片 小组等</a>
+                <i class="icon-scan"></i>
+            </div>
+            <a class="icon-chat"></a>
+        </div>
+    </div>
+    <div class="banner-container">
+        <app-banner height="1.6rem">
+            <a class="swiper-slide bannerlink">
+                <img src="/assets/icon/banner/01.jpg" alt="">
+            </a>
+            <a class="swiper-slide bannerlink">
+                <img src="/assets/icon/banner/02.jpg" alt="">
+            </a>
+            <a class="swiper-slide bannerlink">
+                <img src="/assets/icon/banner/03.jpg" alt="">
+            </a>                        
+        </app-banner>
+    </div>
+    <div class="main-content">
+        <div class="theme-block" *ngFor="let time of articleList">
+            <div class="time-separate">
+                <span>8月21日</span>
+            </div>
+            <div class="theme-separate"></div>
+            <div class="theme-box">
+                <div class="theme-name" [ngStyle]="{color:time.content.color}">
+                    <i class="line" [ngStyle]="{'backgroundColor':time.content.color}"></i>
+                    {{time.content.theme}}
+                </div>
+                <ng-container *ngFor="let article of time.content.articles">
+                    <app-article-brief ></app-article-brief>
+                </ng-container>            
+            </div>     
+        </div>        
+    </div>
+</div>

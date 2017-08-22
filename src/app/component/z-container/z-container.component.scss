@@ -1,0 +1,11 @@
+@import '../../common/common.scss';
+.app-container{
+	position: absolute;
+	display: block;
+	width: 100%;
+	overflow-y: auto;
+	z-index: $index_1;
+	.bannerlink{
+		height: 0.4rem;
+	}
+}

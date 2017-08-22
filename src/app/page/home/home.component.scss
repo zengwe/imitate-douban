@@ -1,0 +1,123 @@
+@import '../../common/common.scss';
+.home-container{
+	.header{
+		height: $header_h;
+		display: block;
+		// align-items:center;/*垂直居中*/
+		// justify-content: center;/*水平居中*/
+		background-color: $main_color;
+		padding:0.1rem 0.2rem;
+		box-sizing: border-box;	
+		.main{
+			height: $header_h * 0.6;
+			// display: table;
+			margin:0px auto;
+			position: relative;
+			.input-area{
+				display: inline-block;
+				height: inherit;
+				width: 90%;
+				background-color: #ffffff;
+				box-sizing: border-box;
+				padding:0px $header_h * 0.6;
+				line-height: $header_h * 0.6;
+				text-align: left;
+				position: relative;
+				border-radius: 4px;
+				.icon-search{
+					display: block;
+					height: $header_h * 0.6;
+					width: $header_h * 0.6;
+					top:0px;
+					left:0px;
+					position: absolute;
+					background: url(#{$img_icon_base}ic_search.png) no-repeat center;
+					background-size: $header_h * 0.6 * 0.6 $header_h * 0.6 * 0.6;
+				}
+				.keywords{
+					color: #cccbcc;
+					font-size: 0.14rem;
+				}
+				.icon-scan{
+					display: block;
+					height: $header_h * 0.6;
+					width: $header_h * 0.6;
+					top:0px;
+					right:0px;
+					position: absolute;
+					background: url(#{$img_icon_base}ic_scan_gray.png) no-repeat center;
+					background-size: $header_h * 0.6 * 0.6 $header_h * 0.6 * 0.6;
+				}
+			}
+			.icon-chat{
+				display: block;
+				position: absolute;
+				top: 0rem;
+				height: $header_h * 0.6;
+				width: $header_h * 0.6;
+				right:0rem;
+				background: url(#{$img_icon_base}ic_chat_white.png) no-repeat center;
+				background-size: $header_h * 0.6   $header_h * 0.6;
+			}		
+		}		
+	}
+	.banner-container{
+		.bannerlink{
+			img{
+				display: block;
+				width: inherit;
+			}
+		}
+	}
+	.main-content{
+		.theme-block{
+			.time-separate{
+				height: 0.4rem;
+				line-height: 0.4rem;
+				span{
+					display: table;
+					height: inherit;
+					line-height: inherit;
+					margin:0px auto;
+					padding:0px 3px;
+					position: relative;
+					@mixin line(){
+						content: '';
+						display: block;
+						position: absolute;
+						height: 0px;
+						border-top:1px solid #acacac;
+						top:0.2rem;
+						width: 5px;
+					}
+					&:before{
+						@include line();
+						left:-6px;
+					}
+					&:after{
+						@include line();
+						right:-6px;
+					}
+				}
+			}
+			.theme-box{
+				background-color: #ffffff;
+				padding:0.1rem 0.2rem 0px 0.2rem;
+				.theme-name{
+					height: 0.3rem;
+					line-height: 0.3rem;
+					position: relative;
+					.line{
+						content: '';
+						display: block;
+						position: absolute;
+						height: inherit;
+						left:-0.2rem;
+						width: 3px;
+					}
+				}
+			}			
+		}
+
+	}
+}

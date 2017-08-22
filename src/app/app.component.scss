@@ -1,0 +1,57 @@
+@import './common/common.scss';
+.nav-bar-bottom{
+	font-size: 0px;
+	position: absolute;
+	bottom: 0px;
+	height: 0.6rem;
+	background: #f7f7f7;
+	box-sizing: border-box;
+	border-top:1px solid #b2b2b2;
+	width:100%;
+	@mixin nav_icon($imgname){
+		background: url(#{$img_icon_base+$imgname}) no-repeat center;
+		background-size:0.4rem 0.4rem;			
+	}
+	@mixin normal($suffix:''){
+		.icon-home{
+			@include nav_icon("ic_tab_home"+$suffix+".png");
+		}
+		.book-movie-music{
+			@include nav_icon("ic_tab_subject"+$suffix+".png");
+		}
+		.icon-broadcast{
+			@include nav_icon("ic_tab_status"+$suffix+".png");
+		}
+		.icon-group{
+			@include nav_icon("ic_tab_group"+$suffix+".png");
+		}
+		.icon-mine{
+			@include nav_icon("ic_tab_profile"+$suffix+".png");
+		}
+		span{
+			@if $suffix=='_normal'{
+				color:#acacac;
+			}@else{
+				color:$main_color;
+			}			
+			font-size: 0.16rem;
+			display: block;
+			text-align: center;
+		}
+	}	      
+	.navigation{
+		display: inline-block;
+		width: 20%;	
+		$icon-size:0.35rem;	
+		.nav-icon{
+			height: $icon-size;
+			width: $icon-size;
+			display: block;
+			margin:0px auto 0px auto;
+		}				
+		@include normal('_normal');
+	}
+	.active{
+		@include normal('_active');
+	}
+}
