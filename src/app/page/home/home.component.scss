@@ -6,7 +6,7 @@
 		// align-items:center;/*垂直居中*/
 		// justify-content: center;/*水平居中*/
 		background-color: $main_color;
-		padding:0.1rem 0.2rem;
+		padding:0.12rem 0.2rem;
 		box-sizing: border-box;	
 		.main{
 			height: $header_h * 0.6;
@@ -102,17 +102,18 @@
 			}
 			.theme-box{
 				background-color: #ffffff;
-				padding:0.1rem 0.2rem 0px 0.2rem;
+				padding:0.1rem 0rem 0px 0rem;
 				.theme-name{
 					height: 0.3rem;
 					line-height: 0.3rem;
 					position: relative;
+					text-indent: 0.1rem;
 					.line{
 						content: '';
 						display: block;
 						position: absolute;
 						height: inherit;
-						left:-0.2rem;
+						left:0rem;
 						width: 3px;
 					}
 				}

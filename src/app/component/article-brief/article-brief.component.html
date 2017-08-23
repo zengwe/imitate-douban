@@ -1,3 +1,15 @@
-<p>
-  article-brief works!
-</p>
+<a class="article-component">
+    <div class="article-main">
+        <div class="article-content" [ngStyle]="{width:article.imgs.length > 0?'70%':'100%'}">
+            <h1 class="title">{{article.title}}</h1>
+            <p class="brief">{{article.brief}}</p>
+        </div>
+        <div class="article-img" *ngIf="article.imgs.length > 0" [ngStyle]="{width:article.imgs.length > 0?'30%':'0%'}">
+            <img [src]="article.imgs[0]" alt="">
+        </div> 
+    </div>
+    <div class="article-auth">
+        {{article.auth}}
+    </div>    
+</a>
+

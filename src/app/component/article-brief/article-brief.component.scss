@@ -1,0 +1,51 @@
+@import '../../common/common.scss';
+.article-component{
+	padding:0.1rem 0.2rem 0px 0.2rem;
+	display: block;
+	border-bottom:1px solid #dfdfdf;
+	.article-main{
+		font-size: 0px;
+		.article-content{
+			display: inline-block;
+			vertical-align: top;
+			box-sizing: border-box;
+			padding-right:0.1rem;
+			.title{
+				font-size: 0.20rem;
+				color:#494949;
+				padding-bottom: 0.1rem;
+			}
+			.brief{
+				font-size: 0.14rem;
+				color:#9a9c9a;
+				padding-bottom: 0.1rem;
+			}
+		}
+		.article-img{
+			display: inline-block;
+			vertical-align: top;
+			overflow: hidden;
+			max-height: 1.5rem;
+			img{
+				display: inline-block;
+				max-width: 1.2rem;		
+			}
+
+		}		
+	}
+	.article-auth{
+		display: block;
+		position: relative;
+		height: 0.4rem;
+		line-height: 0.4rem;
+		font-size: 0.14rem;
+		color:#cccccc;
+		&:before{
+			content: '';
+			display: block;
+			height: 1px;
+			width: 0.3rem;
+			background-color:#cccccc; 
+		}
+	}
+}

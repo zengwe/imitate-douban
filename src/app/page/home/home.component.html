@@ -34,7 +34,9 @@
                     {{time.content.theme}}
                 </div>
                 <ng-container *ngFor="let article of time.content.articles">
-                    <app-article-brief ></app-article-brief>
+                    <ng-container [ngSwitch]="article.type">
+                        <app-article-brief *ngSwitchCase="1" [article]="article"></app-article-brief>
+                    </ng-container>                  
                 </ng-container>            
             </div>     
         </div>        
