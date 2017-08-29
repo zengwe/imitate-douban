@@ -1,0 +1,27 @@
+<a class="page-article-img">
+    <div class="photos" *ngIf="article.imgs.length>0">
+        <div class="main" [style.backgroundImage]="getBackground(article.imgs[0])">
+            <div></div>
+        </div>
+        <div class="aside" *ngIf="article.imgs.length>1">
+            <div class="aside-pic">
+                <div class="img-container" [style.backgroundImage]="getBackground(article.imgs[1])">
+                    <div style="padding-top:100%;"></div>
+                </div>            
+            </div>
+            <div class="aside-pic" *ngIf="article.imgs.length>2">
+                <div class="img-container" [style.backgroundImage]="getBackground(article.imgs[2])">
+                    <div style="padding-top:100%;"></div> 
+                </div>
+                <div class="more-pic" *ngIf="article.imgs.length>3">
+                    <span>{{article.imgs.length-2}}+</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="article-content">
+        <h1 class="title">发的发达</h1>
+        <p class="brief">打的发送到</p>
+    </div>
+    <div class="article-auth">天使</div>
+</a>

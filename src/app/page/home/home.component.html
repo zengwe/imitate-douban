@@ -24,8 +24,8 @@
     </div>
     <div class="main-content">
         <div class="theme-block" *ngFor="let time of articleList">
-            <div class="time-separate">
-                <span>8月21日</span>
+            <div class="time-separate" *ngIf="!isToday(time.time)">
+                <span>{{time.time | formatDate:'MM月dd日'}}</span>
             </div>
             <div class="theme-separate"></div>
             <div class="theme-box">
@@ -36,7 +36,8 @@
                 <ng-container *ngFor="let article of time.content.articles">
                     <ng-container [ngSwitch]="article.type">
                         <app-article-brief *ngSwitchCase="1" [article]="article"></app-article-brief>
-                    </ng-container>                  
+                        <app-article-img *ngSwitchCase="2" [article]="article"></app-article-img>    
+                    </ng-container>            
                 </ng-container>            
             </div>     
         </div>        

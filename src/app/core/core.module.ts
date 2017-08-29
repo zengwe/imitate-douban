@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from '../page/home/home.component';
 import { ZContainerComponent } from '../component/z-container/z-container.component';
 import { HomeModule } from "../page/home/home.module";
+import { ShareModule } from './share/share.module';
 const route:Routes=[
     {
         path: 'home',
@@ -15,6 +16,10 @@ const route:Routes=[
         path: '',
         redirectTo:'home',
         pathMatch:'full'
+    },
+    {
+        path: 'book-movie-music',
+        loadChildren: '../page/book-movie-music/book-movie-music.module#BookMovieMusicModule'
     },
     {
         path:'**',

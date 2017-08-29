@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { article } from '../../service/article.struct';
+import { article } from '../../service/article/article.struct';
 @Component({
   selector: 'app-article-brief',
   templateUrl: './article-brief.component.html',
