@@ -8,7 +8,7 @@ import { BannerComponent } from './banner.component';
   declarations: [
     BannerComponent
   ],
-  exports:[
+  exports: [
     BannerComponent
   ]
 })

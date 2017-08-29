@@ -6,7 +6,7 @@ import { article } from '../../service/article/article.struct';
   styleUrls: ['./article-brief.component.scss']
 })
 export class ArticleBriefComponent implements OnInit {
-  @Input('article') article:article;
+  @Input('article') article: article;
   constructor() { }
 
   ngOnInit() {

@@ -12,12 +12,12 @@ export class BannerComponent implements OnInit, AfterViewInit {
     ngOnInit() {
     }
     ngAfterViewInit() {
-        var swiper = new Swiper('.swiper-container', {
+        const swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
             paginationClickable: true,
             autoplay: 3000,
             loop: true
         });
-        //console.log(swiper);
+        // console.log(swiper);
     }
 }

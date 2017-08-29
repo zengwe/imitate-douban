@@ -8,7 +8,7 @@ import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browse
     styleUrls: ['./article-img.component.scss']
 })
 export class ArticleImgComponent implements OnInit {
-    @Input('article') article:article;
+    @Input('article') article: article;
     constructor(
         private _sanitizer: DomSanitizer
     ) { }
