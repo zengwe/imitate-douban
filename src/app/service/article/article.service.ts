@@ -37,7 +37,7 @@ export class ArticleService {
                             },
                             {
                                 title: '葫芦娃你站住的相册-博罗转井镇。重返1980',
-                                brief: '',
+                                brief: '我也不知道该写啥',
                                 type: 2,
                                 imgs: [
                                     '/assets/article/img/1.webp',

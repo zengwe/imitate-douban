@@ -1,0 +1,30 @@
+@import '../../common/common.scss';
+.switch-channel{
+	width: 100%;
+	left: 0px;
+	top:0.6rem;
+	position: fixed;
+	.container{
+		font-size: 0px;
+		li{
+			display: inline-block;
+			width: 20%;
+			text-align: center;
+			height: 0.4rem;
+			line-height: 0.4rem;
+			position: relative;
+			a{
+				font-size: 0.14rem;
+			}
+		}
+	}
+	.line{
+		display: block;
+		position: absolute;
+		width: 20%;
+		height: 1px;
+		background-color: $main_color;
+		transition: 0.2s;
+		transform:translateX(0px);		
+	}
+}

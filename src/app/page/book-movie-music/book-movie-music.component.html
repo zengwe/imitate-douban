@@ -1,3 +1,30 @@
-<p>
-  book-movie-music works!
-</p>
+<app-header [borderBottom]="true">
+    <ng-container class="title">
+        书影音
+    </ng-container>
+    <ng-container class="right">
+        <app-header-link iconType='search'></app-header-link>
+        <app-header-link  iconType='chat'></app-header-link>
+    </ng-container>
+</app-header>
+<div class="switch-channel">
+    <ul class="container" #father>
+        <li routerLinkActive="active" routerLink="movie">
+            <a href="">电影</a>
+        </li>
+        <li routerLinkActive="active" routerLink="book">
+            <a href="">读书</a>
+        </li>
+        <li routerLinkActive="active" routerLink="drama">
+            <a href="">电视</a>
+        </li>
+        <li routerLinkActive="active" routerLink="city">
+            <a href="">同城</a>
+        </li>
+        <li routerLinkActive="active" routerLink="music">
+            <a href="">音乐</a>
+        </li>
+    </ul>
+    <span class="line" [ngStyle]="{transform:'translateX('+activeIndex+'px)'}"></span>   
+</div>
+
