@@ -10,21 +10,24 @@
 <div class="switch-channel">
     <ul class="container" #father>
         <li routerLinkActive="active" routerLink="movie">
-            <a href="">电影</a>
+            <a>电影</a>
         </li>
         <li routerLinkActive="active" routerLink="book">
-            <a href="">读书</a>
+            <a>读书</a>
         </li>
         <li routerLinkActive="active" routerLink="drama">
-            <a href="">电视</a>
+            <a>电视</a>
         </li>
         <li routerLinkActive="active" routerLink="city">
-            <a href="">同城</a>
+            <a>同城</a>
         </li>
         <li routerLinkActive="active" routerLink="music">
-            <a href="">音乐</a>
+            <a>音乐</a>
         </li>
     </ul>
     <span class="line" [ngStyle]="{transform:'translateX('+activeIndex+'px)'}"></span>   
 </div>
+<app-z-container top="1rem" bottom="0.6rem">
+    <router-outlet></router-outlet>
+</app-z-container>
 

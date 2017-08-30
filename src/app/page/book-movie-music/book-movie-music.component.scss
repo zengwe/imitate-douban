@@ -13,6 +13,9 @@
 			height: 0.4rem;
 			line-height: 0.4rem;
 			position: relative;
+			&:focus{
+				outline: 0px none;
+			}
 			a{
 				font-size: 0.14rem;
 			}
@@ -24,7 +27,7 @@
 		width: 20%;
 		height: 1px;
 		background-color: $main_color;
-		transition: 0.2s;
+		transition: 0.5s;
 		transform:translateX(0px);		
 	}
 }
