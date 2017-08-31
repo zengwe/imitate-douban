@@ -1,3 +1,23 @@
-<p>
-  movie works!
-</p>
+<div class="movie-page">
+    <div class="has-padding">
+        <app-card-block title="影院热映" linkTo="/s/ss">
+            <ul class="swiper-wrapper">
+                <li *ngFor="let item of hotMovie" class="swiper-slide item-list">
+                    <a href="">
+                    <app-item-block></app-item-block>
+                    </a>
+                </li>
+            </ul>        
+        </app-card-block>
+        <app-card-block title="院线即将上映" linkTo="/s/ss">
+            <ul class="swiper-wrapper">
+                <li *ngFor="let item of hotMovie" class="swiper-slide item-list">
+                    <a href="">
+                    <app-item-block></app-item-block>
+                    </a>
+                </li>
+            </ul>        
+        </app-card-block>         
+    </div>
+          
+</div>

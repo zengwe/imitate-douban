@@ -1,0 +1,25 @@
+.starts-component{
+	.rank{
+		display: inline-block;
+		.rating-star{
+			display: inline-block;
+			height: 0.12rem;
+			width: 0.12rem;
+			margin-right: 1px;
+			//background-color: transparent;
+			background-repeat: no-repeat;			
+		}
+		.full{
+			background: url(/assets/icon/rating_star_small_on.png) no-repeat;
+			background-size: 0.12rem 0.12rem;
+		}
+		.gray{
+			background: url(/assets/icon/rating_star_xsmall_gray.png) no-repeat;
+			background-size: 0.12rem 0.12rem;
+		}
+	}
+	.show-score{
+		font-size: 0.12rem;
+		color: #aaa;
+	}
+}

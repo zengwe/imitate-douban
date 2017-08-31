@@ -16,7 +16,6 @@ export class BookMovieMusicComponent{
     changeLinePosition() {
         let allLi = this.father.nativeElement.getElementsByTagName('li');
         for (let i = 0; i < allLi.length; i++) {
-            console.log(allLi[i].className);
             if (allLi[i].className == 'active') {
                 this.activeIndex = i * allLi[i].clientWidth;
                 break;

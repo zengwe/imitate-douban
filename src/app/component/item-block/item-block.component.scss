@@ -1,0 +1,14 @@
+.component-item-block{
+	width: 1rem;
+	display: inline-block;
+	.title{
+		color: #111;
+		margin-top: 0.06rem;
+		line-height: 0.2rem;
+		text-align: center;
+	}
+	.star-area{
+		display: table;
+		margin:0px auto 0px auto;
+	}
+}

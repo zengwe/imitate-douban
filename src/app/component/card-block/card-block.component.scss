@@ -1,0 +1,26 @@
+#card-block{
+	padding-top:0.3rem;
+	.header{
+		padding: 0px 0.2rem 0rem 0rem;
+		h2{
+			display: inline-block;
+			min-width: 4em;
+			margin-bottom: 0;
+			font-size: 18px;
+			color: #494949;
+			padding-left: 0;
+			padding-bottom: 0;
+			font-size: 0.16rem;	
+			font-weight: 700;	
+		}
+		a{
+			float: right;
+			font-size: 0.15rem;
+			line-height: 0.15rem;
+			color: #9f9f9f;
+		}
+	}
+	.section-content{
+		padding-top:0.1rem;
+	}
+}

@@ -1,0 +1,11 @@
+<section id="card-block">
+    <header class="header">
+        <h2>{{title}}</h2>
+        <a [routerLink]='linkTo' >更多</a>
+    </header>
+    <div class="section-content">
+        <div #itemTarget class="row items swiper-container swiper-container-horizontal swiper-container-free-mode">
+            <ng-content ></ng-content>
+        </div>    
+    </div>
+</section>

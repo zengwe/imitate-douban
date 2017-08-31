@@ -27,7 +27,6 @@ export class HeaderLinkComponent implements OnInit {
         }
     }
     getBackground(image) {
-        console.log(image);
         return this._sanitizer.bypassSecurityTrustStyle(`linear-gradient( rgba(255, 0, 0, 0), rgba(255, 0, 0, 0)), url(${image})`);
     }    
 }
