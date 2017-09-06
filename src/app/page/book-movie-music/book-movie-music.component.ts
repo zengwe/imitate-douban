@@ -1,5 +1,4 @@
 import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
-
 @Component({
     selector: 'app-book-movie-music',
     templateUrl: './book-movie-music.component.html',
