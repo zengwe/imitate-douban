@@ -5,10 +5,10 @@ export interface actor{
 	head:string,
 	english_name:string,
 	nick_name:string,
-	gender:number,
+	gender:number,// 0none,1man,2woman
 	birth_date:number,
 	birth_addr:string,
-	constellation:string,
+	constellation:string,//星座
 	create_time:number,
 	update_time:number
 }

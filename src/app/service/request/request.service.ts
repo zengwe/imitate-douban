@@ -11,7 +11,7 @@ export class RequestService {
         this.http = injector.get(Http);
     }
     handleError(error: Response | any): boolean {
-        console.error("baseService received request errorr");
+        console.error('baseService received request errorr');
         console.log(error);
         let errMsg: string;
         if (error instanceof Response) {
@@ -25,7 +25,7 @@ export class RequestService {
         return false;
     }
     createRequstParam(data: any, jsonp = false): any {
-        let params = new URLSearchParams();
+        const params = new URLSearchParams();
         for (let key in data) {
             params.set(key, data[key])
         }
@@ -35,23 +35,25 @@ export class RequestService {
         return params;
     }
     createHeaders() {
-        let headers = new Headers();
+        const headers = new Headers();
         headers.append('Content-Type', 'application/x-www-form-urlencoded');
         return headers;
     }
     checkResponeCode(res: Response) {
-        let serverResponse = res.json() as { code: number, desc: string, data: any };
+        const serverResponse = res.json() as { code: number, desc: string, data: any };
 
         return serverResponse;
     }
     queryServer(query: { url: string, method: string }, param: any): Promise<any> {
-        let form = this.createRequstParam(param);
+        const form = this.createRequstParam(param);
         switch (query.method) {
-            case "post":
-                return this.http.post(query.url, form, { headers: this.createHeaders() }).toPromise().then(this.checkResponeCode.bind(this)).catch(this.handleError);
-            case "get":
+            // case 'post':
+            //     return this.http.post(query.url, form, { headers: this.createHeaders() }).toPromise()
+            //     .then(this.checkResponeCode.bind(this)).catch(this.handleError);
+            case 'get':
             default:
-                return this.http.get(query.url, { search: form }).toPromise().then(this.checkResponeCode.bind(this)).catch(this.handleError);
+                return this.http.get(query.url, { search: form }).toPromise()
+                .then(this.checkResponeCode.bind(this)).catch(this.handleError);
         }
     }
 }

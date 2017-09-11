@@ -1,5 +1,5 @@
 export interface serverRes{
 	code:number,
-	disc:string,
+	desc:string,
 	data:any
 }
