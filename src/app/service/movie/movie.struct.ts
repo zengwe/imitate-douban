@@ -1,11 +1,19 @@
 import { serverRes } from '../request/request.struct';
 import { actor } from '../actor/actor.struct';
 import { movieType } from '../movie-type/movie-type.struct';
+export interface movieToActor{
+	id:number,
+	role:number,
+	index:number,
+	desc:string,
+	role_name:string,
+	actor:actor
+}
 export interface Movie {
   	id: number,
 	name: string, // 电影名称
 	origin_name: string, // 原来的名称
-	poster: string， // 海报地址
+	poster: string, // 海报地址
 	from: string, // 来自那个国家
 	cord: number, // 评分
 	cord_pepole_number: number, // 参与评分的人数
@@ -13,8 +21,7 @@ export interface Movie {
 	language:string, //语言
 	images: string[], // 电影的图片
 	prevue: string, // 宣传片地址
-	artors: actor[], // 演员
-	director: actor, // 导演
+	artors: movieToActor[], // 演员
 	publish_time: number, // 发布时间
 	publish_country: string, // 发布国家
 	type: movieType[], // 电影类型
@@ -22,10 +29,10 @@ export interface Movie {
 	update_time: number // 更新时间
 }
 export interface movieListRes extends serverRes {
-	data: movie[]
+	data: Movie[]
 }
 export interface movieRes extends serverRes {
-	data: movie
+	data: Movie
 }
 export interface questParam {
 	type?: number,

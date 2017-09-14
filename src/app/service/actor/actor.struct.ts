@@ -4,7 +4,11 @@ export interface actor{
 	name:string,
 	head:string,
 	english_name:string,
+	images:string[],
 	nick_name:string,
+	profession:string,
+	brief:string,
+	family:string,
 	gender:number,// 0none,1man,2woman
 	birth_date:number,
 	birth_addr:string,

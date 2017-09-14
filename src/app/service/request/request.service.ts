@@ -5,9 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable()
 export class RequestService {
     private http: Http;
-    constructor(
-        private injector: Injector
-    ) {
+    constructor( private injector: Injector ) {
         this.http = injector.get(Http);
     }
     handleError(error: Response | any): boolean {

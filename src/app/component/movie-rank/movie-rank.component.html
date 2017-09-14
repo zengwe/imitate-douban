@@ -1,0 +1,19 @@
+<div class="movie-rank-component-container">
+    <div class="title">{{titleNameArr[activeIndex]}}</div>
+    <div id="movie-rank-component-container-swiper" class="swiper-container swiper-container-horizontal">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background:red;">
+
+            </div>
+            <div class="swiper-slide" style="background:black;"></div>
+            <div class="swiper-slide" style="background:red;"></div>
+            <div class="swiper-slide" style="background:black;"></div>
+        </div>
+    </div>
+    <ng-container [ngSwitch]="activeIndex">
+        <div class="count" *ngSwitchCase="0">{{top250Movie.length}}</div>
+        <div class="count" *ngSwitchCase="1">{{weekMovieList.length}}</div>
+        <div class="count" *ngSwitchCase="2">{{newMovieList.length}}</div>
+        <div class="count" *ngSwitchCase="3">{{topSailMovieList.length}}</div>
+    </ng-container>
+</div>

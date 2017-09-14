@@ -1,19 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 import { MovieService } from '../../service/movie/movie.service';
+import { Movie } from '../../service/movie/movie.struct';
 @Component({
-  selector: 'app-movie',
-  templateUrl: './movie.component.html',
-  styleUrls: ['./movie.component.scss']
+    selector: 'app-movie',
+    templateUrl: './movie.component.html',
+    styleUrls: ['./movie.component.scss']
 })
 export class MovieComponent implements OnInit {
-  hotMovie=[1,2,3,4,5,6,7,8,9,10];
-  constructor( private movieService: MovieService) {
-    movieService.getMovieList().then((res) => {
-      console.log(res);
-    });
-  }
+    hotMovie: Movie[] = [];
+    playingMovie: Movie[] = [];
+    constructor(private movieService: MovieService) {
+        //获取影院热映
+        movieService.getMovieList().then((res) => {
+            console.log(res);
+            this.hotMovie = res;
+        });
+        //获取即将上映
+        movieService.getMovieList().then((res) => {
+            this.playingMovie = res;
+        });
+    }
 
-  ngOnInit() {
-  }
-
+    ngOnInit() {
+    }
 }

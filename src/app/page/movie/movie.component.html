@@ -4,20 +4,20 @@
             <ul class="swiper-wrapper">
                 <li *ngFor="let item of hotMovie" class="swiper-slide item-list">
                     <a href="">
-                    <app-item-block></app-item-block>
+                        <app-item-block [movie]="item"></app-item-block>
                     </a>
                 </li>
             </ul>        
         </app-card-block>
-        <app-card-block title="院线即将上映" linkTo="/s/ss">
+        <app-card-block title="院线即将上映" linkTo="11">
             <ul class="swiper-wrapper">
-                <li *ngFor="let item of hotMovie" class="swiper-slide item-list">
+                <li *ngFor="let item of playingMovie" class="swiper-slide item-list">
                     <a href="">
-                    <app-item-block></app-item-block>
+                        <app-item-block [movie]="item"></app-item-block>
                     </a>
                 </li>
             </ul>        
-        </app-card-block>         
-    </div>
-          
+        </app-card-block>
+        <app-movie-rank></app-movie-rank>                 
+    </div>   
 </div>

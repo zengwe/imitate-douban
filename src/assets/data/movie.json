@@ -6,44 +6,170 @@
             "id": 1,
             "name": "无间道",
             "origin_name": "Infernal Affairs / Mou gaan dou",
-            "poster": "",
+            "poster": "/assets/movie/wujiandao_post.webp",
             "from": "香港",
             "cord": 9,
             "cord_pepole_number":10003,
             "brief": "1991年，香港黑帮紧目标人物韩琛，没料情报被刘健明泄出，双方行动均告失败。但此事将双方均有卧底的事实暴露，引发双方高层清除内鬼的决心。命运迥异又相似的刘健明和陈永仁开始在无间道的旅程中接受严峻考验",
             "language": "粤语",
             "images":[
-
+                "/assets/movie/wujiandao1.webp",
+                "/assets/movie/wujiandao2.webp",
+                "/assets/movie/wujiandao3.webp",
+                "/assets/movie/wujiandao4.webp",
+                "/assets/movie/wujiandao5.webp"
             ],
             "prevue":"",
             "artors":[
                 {
-                    "id": 1,
-                    "name": "刘德华",
-                    "head": "",
-                    "english_name":"zengwe",
-                    "nick_name":"华仔",
-                    "gender":1,
-                    "birth_date":214312312,
-                    "birth_addr": "中国香港",
-                    "constellation":"处女座",
-                    "create_time": 231232311,
-                    "update_time": 443214324
-                }
+                    "id":1,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"导演",
+                    "role_name":"",
+                    "actor":{
+                        "id": 1,
+                        "name": "麦兆辉",
+                        "head": "/assets/actor/maizhaohui/1.jpg",
+                        "images":[
+                            "/assets/actor/maizhaohui/2.webp",
+                            "/assets/actor/maizhaohui/3.webp",
+                            "/assets/actor/maizhaohui/4.webp"
+                        ],
+                        "english_name":"Alan Mak Siu Fai / Mak Siu Fai / Siu Fai Mak",
+                        "nick_name":"",
+                        "brief":"刘伟强，中国香港著名导演。代表作品有《风云》、《无间道》、《伤城》、《头文字D》等。曾斩获香港电影金像奖、台湾电影金马奖和香港电影金",
+                        "gender":1,
+                        "family":"",
+                        "profession":"导演 / 编剧 / 演员 / 制片",
+                        "birth_date":214312312,
+                        "birth_addr": "中国香港",
+                        "constellation":"处女座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":2,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"导演",
+                    "role_name":"",
+                    "actor":{
+                        "id": 1,
+                        "name": "刘伟强",
+                        "head": "/assets/actor/liuweiqiang/1.jpg",
+                        "images":[
+                            "/assets/actor/liuweiqiang/2.webp",
+                            "/assets/actor/liuweiqiang/3.webp",
+                            "/assets/actor/liuweiqiang/4.webp",
+                            "/assets/actor/liuweiqiang/5.webp",
+                            "/assets/actor/liuweiqiang/6.webp"
+                        ],
+                        "english_name":"Wai-keung Lau / Andrew Lau Wai-Keung",
+                        "nick_name":"",
+                        "brief":"刘伟强，中国香港著名导演。代表作品有《风云》、《无间道》、《伤城》、《头文字D》等。曾斩获香港电影金像奖、台湾电影金马奖和香港电影金",
+                        "gender":1,
+                        "family":"",
+                        "profession":"导演 / 摄影 / 制片 / 演员 / 编剧",
+                        "birth_date":214312312,
+                        "birth_addr": "中国香港",
+                        "constellation":"处女座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },                
+                {
+                    "id":3,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"刘建明",
+                    "actor":{
+                        "id": 1,
+                        "name": "刘德华",
+                        "head": "/assets/actor/liudehua/1.jpg",
+                        "images":[
+                            "/assets/actor/liudehua/2webp.webp",
+                            "/assets/actor/liudehua/3.webp",
+                            "/assets/actor/liudehua/4.webp",
+                            "/assets/actor/liudehua/5.webp",
+                            "/assets/actor/liudehua/6.webp"
+                        ],
+                        "english_name":"Lau Fok Wing",
+                        "nick_name":"华仔",
+                        "brief":"刘德华，著名演员和歌手。1990年代被封为香港“四大天王”之一，亦是大中华地区极具代表性的艺人之一。 刘德华是个多线发展的艺人：作为歌手，他是吉尼斯世界纪录大全中，获奖最多的香港歌手；",
+                        "gender":1,
+                        "family":"朱丽倩(妻) / 刘向蕙(女)",
+                        "profession":"演员 / 制片 / 导演 / 摄影",
+                        "birth_date":214312312,
+                        "birth_addr": "中国香港",
+                        "constellation":"处女座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }
+                },
+                {
+                    "id":4,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"韩琛",
+                    "actor":{
+                        "id": 1,
+                        "name": "曾志伟",
+                        "head": "/assets/actor/zengzhiwei/1.jpg",
+                        "images":[
+                            "/assets/actor/liangchaowei/2.webp",
+                            "/assets/actor/liangchaowei/3.webp",
+                            "/assets/actor/liangchaowei/4.webp",
+                            "/assets/actor/liangchaowei/5.webp",
+                            "/assets/actor/liangchaowei/6.webp"
+                        ],
+                        "profession":"演员,导演,制片,编剧",
+                        "english_name":"慈善反斗星 / Danson / 志伟大哥 / 奖门人",
+                        "nick_name":"伟仔(昵称) / 老虎(昵称)",
+                        "brief":"曾志伟，香港影视演员，在中学毕业后曾任职业足球运动员，后辗转加入电影行业，最初担任龙虎武师。后来涉足编剧工作，并升任导演。加入新艺城后拍摄“最佳拍档”系列电影",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"曾宝仪(女) / 曾国祥(子)",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"陈永仁",
+                    "actor":{
+                        "id": 1,
+                        "name": "梁朝伟",
+                        "head": "/assets/actor/liangchaowei/1.jpg",
+                        "images":[
+                            "/assets/actor/liangchaowei/2.webp",
+                            "/assets/actor/liangchaowei/3.webp",
+                            "/assets/actor/liangchaowei/4.webp",
+                            "/assets/actor/liangchaowei/5.webp",
+                            "/assets/actor/liangchaowei/6.webp"
+                        ],
+                        "english_name":"Leung Chiu Wai / Tony Leung Chiu-Wai",
+                        "nick_name":"伟仔(昵称) / 老虎(昵称)",
+                        "profession":"演员,导演,制片,编剧",
+                        "brief":"梁朝伟，香港男演员，在华人社会颇具影响力，因其出色的演技而囊括多个电影奖项。截至2009年，他是获得香港电影金像奖和台湾电影金马奖最佳男主角最多的人：",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"刘嘉玲(妻)",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                }                
             ],
-            "director":{
-                "id": 1,
-                "name": "刘德华",
-                "head": "",
-                "english_name":"zengwe",
-                "nick_name":"华仔",
-                "gender":1,
-                "birth_date":214312312,
-                "birth_addr": "中国香港",
-                "constellation":"处女座",
-                "create_time": 231232311,
-                "update_time": 443214324                
-            },
             "publish_time":345245244,
             "publish_country":"中国香港",
             "type":[
@@ -73,47 +199,116 @@
             "update_time":443214324
         },
         {
-            "id": 1,
-            "name": "无间道",
-            "origin_name": "Infernal Affairs / Mou gaan dou",
-            "poster": "",
+            "id": 2,
+            "name": "单身男女",
+            "origin_name": "Don’t Go Breaking My Heart",
+            "poster": "/assets/movie/danshennannv/1.webp",
             "from": "香港",
-            "cord": 9,
-            "cord_pepole_number":10003,
-            "brief": "1991年，香港黑帮紧目标人物韩琛，没料情报被刘健明泄出，双方行动均告失败。但此事将双方均有卧底的事实暴露，引发双方高层清除内鬼的决心。命运迥异又相似的刘健明和陈永仁开始在无间道的旅程中接受严峻考验",
-            "language": "粤语",
+            "cord": 6.8,
+            "cord_pepole_number":217387,
+            "brief": "为追寻爱情，苏州女孩程子欣（高圆圆 饰）随男友来至香港，在一家金融公司供职。谁知男友移情别恋，令子欣备受打击。偶然机缘，她结识了正处于瓶颈期的建筑师方启宏（吴彦祖 饰）",
+            "language": "粤语 / 汉语普通话",
             "images":[
-
+                "/assets/movie/danshennannv/2.webp",
+                "/assets/movie/danshennannv/3.webp",
+                "/assets/movie/danshennannv/4.webp",
+                "/assets/movie/danshennannv/5.webp",
+                "/assets/movie/danshennannv/6.webp",
+                "/assets/movie/danshennannv/7.webp"
             ],
             "prevue":"",
             "artors":[
                 {
-                    "id": 1,
-                    "name": "刘德华",
-                    "head": "",
-                    "english_name":"zengwe",
-                    "nick_name":"华仔",
-                    "gender":1,
-                    "birth_date":214312312,
-                    "birth_addr": "中国香港",
-                    "constellation":"处女座",
-                    "create_time": 231232311,
-                    "update_time": 443214324
-                }
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"导演",
+                    "role_name":"",
+                    "actor":{
+                        "id": 1,
+                        "name": "杜琪峰",
+                        "head": "/assets/actor/duqifeng/1.jpg",
+                        "images":[
+                            "/assets/actor/duqifeng/2.webp",
+                            "/assets/actor/duqifeng/3.webp",
+                            "/assets/actor/duqifeng/4.webp",
+                            "/assets/actor/duqifeng/5.webp",
+                            "/assets/actor/duqifeng/6.webp"
+                        ],
+                        "english_name":"Johnnie / Johnnie To Kei Fung / To Kai Fung",
+                        "nick_name":"",
+                        "profession":"导演 / 制片 / 演员 / 编剧 / 副导演",
+                        "brief":"杜琪峰，香港知名导演。成长于香港著名的三不管地带九龙城寨，童年时即很喜欢看电影，当时戏院分为早场和公余场，通常早场放粤语长片，公余场放西片，为图便宜，杜琪峰专挑西片看",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"黄宝玲(妻)",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"张申然",
+                    "actor":{
+                        "id": 1,
+                        "name": "古天乐",
+                        "head": "/assets/actor/gutianle/1.jpg",
+                        "images":[
+                            "/assets/actor/gutianle/2.webp",
+                            "/assets/actor/gutianle/3.webp",
+                            "/assets/actor/gutianle/4.webp",
+                            "/assets/actor/gutianle/5.webp",
+                            "/assets/actor/gutianle/6.webp"
+                        ],
+                        "english_name":" Louis Tin Lok Koo (本名) / Koo Jai (昵称)",
+                        "nick_name":"",
+                        "profession":"演员 / 制片 / 编剧",
+                        "brief":"古天乐，香港以及华人地区著名演员、歌手，1993年签约无线，后凭《神雕侠侣》演活亦正亦邪的杨过，开始备受注意。1999年凭借《刑事侦缉档案4》中徐飞的角色成为TVB最年轻的视帝。",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"方启宏",
+                    "actor":{
+                        "id": 1,
+                        "name": "吴彦祖",
+                        "head": "/assets/actor/wuyanzu/1.jpg",
+                        "images":[
+                            "/assets/actor/wuyanzu/2.webp",
+                            "/assets/actor/wuyanzu/3.webp",
+                            "/assets/actor/wuyanzu/4.webp",
+                            "/assets/actor/wuyanzu/5.webp",
+                            "/assets/actor/wuyanzu/6.webp"
+                        ],
+                        "english_name":" Louis Tin Lok Koo (本名) / Koo Jai (昵称)",
+                        "nick_name":"",
+                        "profession":"演员 / 制片 / 编剧",
+                        "brief":"吴彦祖，香港电影演员，出生于旧金山，于加州成长，毕业于美国俄勒冈大学建筑学系。在1997年回到香港，开始电影及模特儿工作。",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":" Lisa Selesner(妻) / Raven Woo(女)",
+                        "birth_addr": "美国,加利福尼亚,伯克利",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                }                                
             ],
-            "director":{
-                "id": 1,
-                "name": "刘德华",
-                "head": "",
-                "english_name":"zengwe",
-                "nick_name":"华仔",
-                "gender":1,
-                "birth_date":214312312,
-                "birth_addr": "中国香港",
-                "constellation":"处女座",
-                "create_time": 231232311,
-                "update_time": 443214324                
-            },
             "publish_time":345245244,
             "publish_country":"中国香港",
             "type":[
@@ -143,47 +338,116 @@
             "update_time":443214324
         },
         {
-            "id": 1,
-            "name": "无间道",
-            "origin_name": "Infernal Affairs / Mou gaan dou",
-            "poster": "",
+            "id": 2,
+            "name": "单身男女",
+            "origin_name": "Don’t Go Breaking My Heart",
+            "poster": "/assets/movie/danshennannv/1.webp",
             "from": "香港",
-            "cord": 9,
-            "cord_pepole_number":10003,
-            "brief": "1991年，香港黑帮紧目标人物韩琛，没料情报被刘健明泄出，双方行动均告失败。但此事将双方均有卧底的事实暴露，引发双方高层清除内鬼的决心。命运迥异又相似的刘健明和陈永仁开始在无间道的旅程中接受严峻考验",
-            "language": "粤语",
+            "cord": 6.8,
+            "cord_pepole_number":217387,
+            "brief": "为追寻爱情，苏州女孩程子欣（高圆圆 饰）随男友来至香港，在一家金融公司供职。谁知男友移情别恋，令子欣备受打击。偶然机缘，她结识了正处于瓶颈期的建筑师方启宏（吴彦祖 饰）",
+            "language": "粤语 / 汉语普通话",
             "images":[
-
+                "/assets/movie/danshennannv/2.webp",
+                "/assets/movie/danshennannv/3.webp",
+                "/assets/movie/danshennannv/4.webp",
+                "/assets/movie/danshennannv/5.webp",
+                "/assets/movie/danshennannv/6.webp",
+                "/assets/movie/danshennannv/7.webp"
             ],
             "prevue":"",
             "artors":[
                 {
-                    "id": 1,
-                    "name": "刘德华",
-                    "head": "",
-                    "english_name":"zengwe",
-                    "nick_name":"华仔",
-                    "gender":1,
-                    "birth_date":214312312,
-                    "birth_addr": "中国香港",
-                    "constellation":"处女座",
-                    "create_time": 231232311,
-                    "update_time": 443214324
-                }
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"导演",
+                    "role_name":"",
+                    "actor":{
+                        "id": 1,
+                        "name": "杜琪峰",
+                        "head": "/assets/actor/duqifeng/1.jpg",
+                        "images":[
+                            "/assets/actor/duqifeng/2.webp",
+                            "/assets/actor/duqifeng/3.webp",
+                            "/assets/actor/duqifeng/4.webp",
+                            "/assets/actor/duqifeng/5.webp",
+                            "/assets/actor/duqifeng/6.webp"
+                        ],
+                        "english_name":"Johnnie / Johnnie To Kei Fung / To Kai Fung",
+                        "nick_name":"",
+                        "profession":"导演 / 制片 / 演员 / 编剧 / 副导演",
+                        "brief":"杜琪峰，香港知名导演。成长于香港著名的三不管地带九龙城寨，童年时即很喜欢看电影，当时戏院分为早场和公余场，通常早场放粤语长片，公余场放西片，为图便宜，杜琪峰专挑西片看",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"黄宝玲(妻)",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"张申然",
+                    "actor":{
+                        "id": 1,
+                        "name": "古天乐",
+                        "head": "/assets/actor/gutianle/1.jpg",
+                        "images":[
+                            "/assets/actor/gutianle/2.webp",
+                            "/assets/actor/gutianle/3.webp",
+                            "/assets/actor/gutianle/4.webp",
+                            "/assets/actor/gutianle/5.webp",
+                            "/assets/actor/gutianle/6.webp"
+                        ],
+                        "english_name":" Louis Tin Lok Koo (本名) / Koo Jai (昵称)",
+                        "nick_name":"",
+                        "profession":"演员 / 制片 / 编剧",
+                        "brief":"古天乐，香港以及华人地区著名演员、歌手，1993年签约无线，后凭《神雕侠侣》演活亦正亦邪的杨过，开始备受注意。1999年凭借《刑事侦缉档案4》中徐飞的角色成为TVB最年轻的视帝。",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"方启宏",
+                    "actor":{
+                        "id": 1,
+                        "name": "吴彦祖",
+                        "head": "/assets/actor/wuyanzu/1.jpg",
+                        "images":[
+                            "/assets/actor/wuyanzu/2.webp",
+                            "/assets/actor/wuyanzu/3.webp",
+                            "/assets/actor/wuyanzu/4.webp",
+                            "/assets/actor/wuyanzu/5.webp",
+                            "/assets/actor/wuyanzu/6.webp"
+                        ],
+                        "english_name":" Louis Tin Lok Koo (本名) / Koo Jai (昵称)",
+                        "nick_name":"",
+                        "profession":"演员 / 制片 / 编剧",
+                        "brief":"吴彦祖，香港电影演员，出生于旧金山，于加州成长，毕业于美国俄勒冈大学建筑学系。在1997年回到香港，开始电影及模特儿工作。",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":" Lisa Selesner(妻) / Raven Woo(女)",
+                        "birth_addr": "美国,加利福尼亚,伯克利",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                }                                
             ],
-            "director":{
-                "id": 1,
-                "name": "刘德华",
-                "head": "",
-                "english_name":"zengwe",
-                "nick_name":"华仔",
-                "gender":1,
-                "birth_date":214312312,
-                "birth_addr": "中国香港",
-                "constellation":"处女座",
-                "create_time": 231232311,
-                "update_time": 443214324                
-            },
             "publish_time":345245244,
             "publish_country":"中国香港",
             "type":[
@@ -213,47 +477,116 @@
             "update_time":443214324
         },
         {
-            "id": 1,
-            "name": "无间道",
-            "origin_name": "Infernal Affairs / Mou gaan dou",
-            "poster": "",
+            "id": 2,
+            "name": "单身男女",
+            "origin_name": "Don’t Go Breaking My Heart",
+            "poster": "/assets/movie/danshennannv/1.webp",
             "from": "香港",
-            "cord": 9,
-            "cord_pepole_number":10003,
-            "brief": "1991年，香港黑帮紧目标人物韩琛，没料情报被刘健明泄出，双方行动均告失败。但此事将双方均有卧底的事实暴露，引发双方高层清除内鬼的决心。命运迥异又相似的刘健明和陈永仁开始在无间道的旅程中接受严峻考验",
-            "language": "粤语",
+            "cord": 6.8,
+            "cord_pepole_number":217387,
+            "brief": "为追寻爱情，苏州女孩程子欣（高圆圆 饰）随男友来至香港，在一家金融公司供职。谁知男友移情别恋，令子欣备受打击。偶然机缘，她结识了正处于瓶颈期的建筑师方启宏（吴彦祖 饰）",
+            "language": "粤语 / 汉语普通话",
             "images":[
-
+                "/assets/movie/danshennannv/2.webp",
+                "/assets/movie/danshennannv/3.webp",
+                "/assets/movie/danshennannv/4.webp",
+                "/assets/movie/danshennannv/5.webp",
+                "/assets/movie/danshennannv/6.webp",
+                "/assets/movie/danshennannv/7.webp"
             ],
             "prevue":"",
             "artors":[
                 {
-                    "id": 1,
-                    "name": "刘德华",
-                    "head": "",
-                    "english_name":"zengwe",
-                    "nick_name":"华仔",
-                    "gender":1,
-                    "birth_date":214312312,
-                    "birth_addr": "中国香港",
-                    "constellation":"处女座",
-                    "create_time": 231232311,
-                    "update_time": 443214324
-                }
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"导演",
+                    "role_name":"",
+                    "actor":{
+                        "id": 1,
+                        "name": "杜琪峰",
+                        "head": "/assets/actor/duqifeng/1.jpg",
+                        "images":[
+                            "/assets/actor/duqifeng/2.webp",
+                            "/assets/actor/duqifeng/3.webp",
+                            "/assets/actor/duqifeng/4.webp",
+                            "/assets/actor/duqifeng/5.webp",
+                            "/assets/actor/duqifeng/6.webp"
+                        ],
+                        "english_name":"Johnnie / Johnnie To Kei Fung / To Kai Fung",
+                        "nick_name":"",
+                        "profession":"导演 / 制片 / 演员 / 编剧 / 副导演",
+                        "brief":"杜琪峰，香港知名导演。成长于香港著名的三不管地带九龙城寨，童年时即很喜欢看电影，当时戏院分为早场和公余场，通常早场放粤语长片，公余场放西片，为图便宜，杜琪峰专挑西片看",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"黄宝玲(妻)",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"张申然",
+                    "actor":{
+                        "id": 1,
+                        "name": "古天乐",
+                        "head": "/assets/actor/gutianle/1.jpg",
+                        "images":[
+                            "/assets/actor/gutianle/2.webp",
+                            "/assets/actor/gutianle/3.webp",
+                            "/assets/actor/gutianle/4.webp",
+                            "/assets/actor/gutianle/5.webp",
+                            "/assets/actor/gutianle/6.webp"
+                        ],
+                        "english_name":" Louis Tin Lok Koo (本名) / Koo Jai (昵称)",
+                        "nick_name":"",
+                        "profession":"演员 / 制片 / 编剧",
+                        "brief":"古天乐，香港以及华人地区著名演员、歌手，1993年签约无线，后凭《神雕侠侣》演活亦正亦邪的杨过，开始备受注意。1999年凭借《刑事侦缉档案4》中徐飞的角色成为TVB最年轻的视帝。",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"方启宏",
+                    "actor":{
+                        "id": 1,
+                        "name": "吴彦祖",
+                        "head": "/assets/actor/wuyanzu/1.jpg",
+                        "images":[
+                            "/assets/actor/wuyanzu/2.webp",
+                            "/assets/actor/wuyanzu/3.webp",
+                            "/assets/actor/wuyanzu/4.webp",
+                            "/assets/actor/wuyanzu/5.webp",
+                            "/assets/actor/wuyanzu/6.webp"
+                        ],
+                        "english_name":" Louis Tin Lok Koo (本名) / Koo Jai (昵称)",
+                        "nick_name":"",
+                        "profession":"演员 / 制片 / 编剧",
+                        "brief":"吴彦祖，香港电影演员，出生于旧金山，于加州成长，毕业于美国俄勒冈大学建筑学系。在1997年回到香港，开始电影及模特儿工作。",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":" Lisa Selesner(妻) / Raven Woo(女)",
+                        "birth_addr": "美国,加利福尼亚,伯克利",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                }                                
             ],
-            "director":{
-                "id": 1,
-                "name": "刘德华",
-                "head": "",
-                "english_name":"zengwe",
-                "nick_name":"华仔",
-                "gender":1,
-                "birth_date":214312312,
-                "birth_addr": "中国香港",
-                "constellation":"处女座",
-                "create_time": 231232311,
-                "update_time": 443214324                
-            },
             "publish_time":345245244,
             "publish_country":"中国香港",
             "type":[
@@ -281,6 +614,145 @@
             ],
             "create_time":231232311,
             "update_time":443214324
-        }                        
+        },
+        {
+            "id": 2,
+            "name": "单身男女",
+            "origin_name": "Don’t Go Breaking My Heart",
+            "poster": "/assets/movie/danshennannv/1.webp",
+            "from": "香港",
+            "cord": 6.8,
+            "cord_pepole_number":217387,
+            "brief": "为追寻爱情，苏州女孩程子欣（高圆圆 饰）随男友来至香港，在一家金融公司供职。谁知男友移情别恋，令子欣备受打击。偶然机缘，她结识了正处于瓶颈期的建筑师方启宏（吴彦祖 饰）",
+            "language": "粤语 / 汉语普通话",
+            "images":[
+                "/assets/movie/danshennannv/2.webp",
+                "/assets/movie/danshennannv/3.webp",
+                "/assets/movie/danshennannv/4.webp",
+                "/assets/movie/danshennannv/5.webp",
+                "/assets/movie/danshennannv/6.webp",
+                "/assets/movie/danshennannv/7.webp"
+            ],
+            "prevue":"",
+            "artors":[
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"导演",
+                    "role_name":"",
+                    "actor":{
+                        "id": 1,
+                        "name": "杜琪峰",
+                        "head": "/assets/actor/duqifeng/1.jpg",
+                        "images":[
+                            "/assets/actor/duqifeng/2.webp",
+                            "/assets/actor/duqifeng/3.webp",
+                            "/assets/actor/duqifeng/4.webp",
+                            "/assets/actor/duqifeng/5.webp",
+                            "/assets/actor/duqifeng/6.webp"
+                        ],
+                        "english_name":"Johnnie / Johnnie To Kei Fung / To Kai Fung",
+                        "nick_name":"",
+                        "profession":"导演 / 制片 / 演员 / 编剧 / 副导演",
+                        "brief":"杜琪峰，香港知名导演。成长于香港著名的三不管地带九龙城寨，童年时即很喜欢看电影，当时戏院分为早场和公余场，通常早场放粤语长片，公余场放西片，为图便宜，杜琪峰专挑西片看",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"黄宝玲(妻)",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"张申然",
+                    "actor":{
+                        "id": 1,
+                        "name": "古天乐",
+                        "head": "/assets/actor/gutianle/1.jpg",
+                        "images":[
+                            "/assets/actor/gutianle/2.webp",
+                            "/assets/actor/gutianle/3.webp",
+                            "/assets/actor/gutianle/4.webp",
+                            "/assets/actor/gutianle/5.webp",
+                            "/assets/actor/gutianle/6.webp"
+                        ],
+                        "english_name":" Louis Tin Lok Koo (本名) / Koo Jai (昵称)",
+                        "nick_name":"",
+                        "profession":"演员 / 制片 / 编剧",
+                        "brief":"古天乐，香港以及华人地区著名演员、歌手，1993年签约无线，后凭《神雕侠侣》演活亦正亦邪的杨过，开始备受注意。1999年凭借《刑事侦缉档案4》中徐飞的角色成为TVB最年轻的视帝。",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":"",
+                        "birth_addr": "中国香港",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                },
+                {
+                    "id":5,
+                    "role_type":1,
+                    "index":1,
+                    "desc":"演员",
+                    "role_name":"方启宏",
+                    "actor":{
+                        "id": 1,
+                        "name": "吴彦祖",
+                        "head": "/assets/actor/wuyanzu/1.jpg",
+                        "images":[
+                            "/assets/actor/wuyanzu/2.webp",
+                            "/assets/actor/wuyanzu/3.webp",
+                            "/assets/actor/wuyanzu/4.webp",
+                            "/assets/actor/wuyanzu/5.webp",
+                            "/assets/actor/wuyanzu/6.webp"
+                        ],
+                        "english_name":" Louis Tin Lok Koo (本名) / Koo Jai (昵称)",
+                        "nick_name":"",
+                        "profession":"演员 / 制片 / 编剧",
+                        "brief":"吴彦祖，香港电影演员，出生于旧金山，于加州成长，毕业于美国俄勒冈大学建筑学系。在1997年回到香港，开始电影及模特儿工作。",
+                        "gender":1,
+                        "birth_date":214312312,
+                        "family":" Lisa Selesner(妻) / Raven Woo(女)",
+                        "birth_addr": "美国,加利福尼亚,伯克利",
+                        "constellation":"巨蟹座",
+                        "create_time": 231232311,
+                        "update_time": 443214324
+                    }                    
+                }                                
+            ],
+            "publish_time":345245244,
+            "publish_country":"中国香港",
+            "type":[
+                {
+                    "id":1,
+                    "name":"警匪",
+                    "priority":0,
+                    "create_time":231232311,
+                    "updata_time":545345545
+                },
+                {
+                    "id":1,
+                    "name":"动作",
+                    "priority":0,
+                    "create_time":231232311,
+                    "updata_time":545345545
+                },
+                {
+                    "id":1,
+                    "name":"犯罪",
+                    "priority":0,
+                    "create_time":231232311,
+                    "updata_time":545345545
+                }
+            ],
+            "create_time":231232311,
+            "update_time":443214324
+        }                           
     ]
 }

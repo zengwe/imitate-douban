@@ -1,7 +1,7 @@
-<div class="component-item-block" #itemTarget>
-    <app-cover coverSrc="/assets/movie/1.webp"></app-cover>
-    <h3 class="title">顿刻尔克</h3>
+<div class="component-item-block" #itemTarget *ngIf="movie">
+    <app-cover [coverSrc]="movie.poster"></app-cover>
+    <h3 class="title">{{movie.name}}</h3>
     <div class="star-area">
-        <app-starts score="7.3"></app-starts>
+        <app-starts [score]="movie.cord"></app-starts>
     </div>
 </div>
