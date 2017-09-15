@@ -3,7 +3,7 @@ import { actor } from '../actor/actor.struct';
 import { movieType } from '../movie-type/movie-type.struct';
 export interface movieToActor{
 	id:number,
-	role:number,
+	role_type:number,
 	index:number,
 	desc:string,
 	role_name:string,

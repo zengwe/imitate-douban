@@ -1,0 +1,16 @@
+<div class="movie-item-max-component">
+    <div class="conver" [style.backgroundImage]="getBackground(cover)"></div>
+    <ul class="movie-info">
+        <li class="movie-name">{{name}}</li>
+        <li class="movie-score">
+            <app-starts [score]="score"></app-starts>
+        </li>
+        <li class="actor" *ngFor="let item of info">
+            <span class="label-name">{{item.name}}：</span>
+            <span>{{item.value}}</span>
+        </li>
+        <li class="desc">
+            {{desc}}
+        </li>
+    </ul>
+</div>

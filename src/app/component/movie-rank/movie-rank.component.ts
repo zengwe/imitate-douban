@@ -33,7 +33,7 @@ export class MovieRankComponent implements OnInit {
     ngOnInit() {
     }
     ngAfterViewInit() {
-        var swiper = new Swiper('#movie-rank-component-container-swiper', {
+        this.swiperInstance = new Swiper('#movie-rank-component-container-swiper', {
             pagination: '.swiper-pagination',
             slidesPerView: 'auto',
             paginationClickable: true,

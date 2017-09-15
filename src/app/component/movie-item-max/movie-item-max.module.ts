@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ItemBlockComponent } from './item-block.component';
-import { CoverComponent } from '../cover/cover.component';
+import { MovieItemMaxComponent } from './movie-item-max.component';
 import { StartsModule } from '../starts/starts.module';
 @NgModule({
     imports: [
@@ -9,11 +8,10 @@ import { StartsModule } from '../starts/starts.module';
         StartsModule
     ],
     declarations: [
-        ItemBlockComponent,
-        CoverComponent
+        MovieItemMaxComponent
     ],
     exports: [
-        ItemBlockComponent
+        MovieItemMaxComponent
     ]
 })
-export class ItemBlockModule { }
+export class MovieItemMaxModule { }

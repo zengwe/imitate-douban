@@ -2,18 +2,44 @@
     <div class="title">{{titleNameArr[activeIndex]}}</div>
     <div id="movie-rank-component-container-swiper" class="swiper-container swiper-container-horizontal">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background:red;">
-
+            <div class="swiper-slide">
+                <a class="link-movie" *ngFor="let item of top250Movie;let i = index" href="">
+                    <div class="index">{{i+1}}</div>
+                    <div class="movie">
+                       <app-movie-item-mini [movie]="item"></app-movie-item-mini> 
+                    </div>
+                </a>               
             </div>
-            <div class="swiper-slide" style="background:black;"></div>
-            <div class="swiper-slide" style="background:red;"></div>
-            <div class="swiper-slide" style="background:black;"></div>
+            <div class="swiper-slide">
+                <a class="link-movie" *ngFor="let item of weekMovieList;let i = index" href="">
+                    <div class="index">{{i+1}}</div>
+                    <div class="movie">
+                        <app-movie-item-mini [movie]="item"></app-movie-item-mini> 
+                    </div>
+                </a>                   
+            </div>
+            <div class="swiper-slide">
+                <a class="link-movie" *ngFor="let item of newMovieList;let i = index" href="">
+                    <div class="index">{{i+1}}</div>
+                    <div class="movie">
+                        <app-movie-item-mini [movie]="item"></app-movie-item-mini> 
+                    </div>
+                </a>                   
+            </div>
+            <div class="swiper-slide">
+                <a class="link-movie" *ngFor="let item of topSailMovieList;let i = index" href="">
+                    <div class="index">{{i+1}}</div>
+                    <div class="movie">
+                        <app-movie-item-mini [movie]="item"></app-movie-item-mini> 
+                    </div>
+                </a>                   
+            </div>            
         </div>
     </div>
     <ng-container [ngSwitch]="activeIndex">
-        <div class="count" *ngSwitchCase="0">{{top250Movie.length}}</div>
-        <div class="count" *ngSwitchCase="1">{{weekMovieList.length}}</div>
-        <div class="count" *ngSwitchCase="2">{{newMovieList.length}}</div>
-        <div class="count" *ngSwitchCase="3">{{topSailMovieList.length}}</div>
+        <div class="count" *ngSwitchCase="0"><a href="http://">全部共{{top250Movie.length}}部</a></div>
+        <div class="count" *ngSwitchCase="1"><a href="http://">全部共{{weekMovieList.length}}部</a></div>
+        <div class="count" *ngSwitchCase="2"><a href="http://">全部共{{newMovieList.length}}部</a></div>
+        <div class="count" *ngSwitchCase="3"><a href="http://">全部共{{topSailMovieList.length}}部</a></div>
     </ng-container>
 </div>

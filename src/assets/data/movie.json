@@ -20,10 +20,10 @@
                 "/assets/movie/wujiandao5.webp"
             ],
             "prevue":"",
-            "artors":[
+            "actors":[
                 {
                     "id":1,
-                    "role_type":1,
+                    "role_type":0,
                     "index":1,
                     "desc":"导演",
                     "role_name":"",
@@ -51,7 +51,7 @@
                 },
                 {
                     "id":2,
-                    "role_type":1,
+                    "role_type":0,
                     "index":1,
                     "desc":"导演",
                     "role_name":"",
@@ -217,10 +217,10 @@
                 "/assets/movie/danshennannv/7.webp"
             ],
             "prevue":"",
-            "artors":[
+            "actors":[
                 {
                     "id":5,
-                    "role_type":1,
+                    "role_type":0,
                     "index":1,
                     "desc":"导演",
                     "role_name":"",
@@ -356,10 +356,10 @@
                 "/assets/movie/danshennannv/7.webp"
             ],
             "prevue":"",
-            "artors":[
+            "actors":[
                 {
                     "id":5,
-                    "role_type":1,
+                    "role_type":0,
                     "index":1,
                     "desc":"导演",
                     "role_name":"",
@@ -495,10 +495,10 @@
                 "/assets/movie/danshennannv/7.webp"
             ],
             "prevue":"",
-            "artors":[
+            "actors":[
                 {
                     "id":5,
-                    "role_type":1,
+                    "role_type":0,
                     "index":1,
                     "desc":"导演",
                     "role_name":"",
@@ -634,10 +634,10 @@
                 "/assets/movie/danshennannv/7.webp"
             ],
             "prevue":"",
-            "artors":[
+            "actors":[
                 {
                     "id":5,
-                    "role_type":1,
+                    "role_type":0,
                     "index":1,
                     "desc":"导演",
                     "role_name":"",

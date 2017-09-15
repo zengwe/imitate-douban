@@ -1,0 +1,38 @@
+.movie-item-mini-component{
+	display: block;
+	width: 100%;
+	padding-left:0.5rem;
+	box-sizing: border-box;
+	position: relative;
+	height: 0.4rem;
+	.cover{
+		display: inline-block;
+		vertical-align: middle;
+		background-size:cover;
+		background-color:rgb(250, 250, 250);
+		background-position-x:center;
+		background-position-y:center;
+		height: 0.5rem;
+		width: 0.4rem;
+		position: absolute;
+		left: 0px;
+		top:0px;
+	}
+	.movie-info{
+		display: inline-block;
+		width: 100%;
+		vertical-align: middle;
+		border-bottom:1px solid #dfdfdf;
+		padding-bottom: 0.06rem;
+		.movie-name{
+			font-size: 0.16rem;
+			color: #535353;
+		}
+		.evaluate{
+			.people{
+				font-size: 0.12rem;
+				color: #aaa;
+			}
+		}
+	}
+}
