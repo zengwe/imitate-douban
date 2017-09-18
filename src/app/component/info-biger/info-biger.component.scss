@@ -1,0 +1,73 @@
+.info-biger-component{
+	.posters-area{
+		width: 100%;
+		padding:0.2rem 0.2rem;
+		box-sizing: border-box;
+		background-color: #bac1cc;
+		.poster{
+			display: block;
+			margin:0px auto;
+			background-size: cover;
+			background-color: #fafafa;
+			background-position-x: center;
+			background-position-y: center;
+			width: 2rem;
+			height: 2.84rem;			
+		}
+	}
+	.info{
+		position: relative;
+		$padding-right:0.3rem;
+		$padding-left:0.3rem;
+		$padding-bottom:0.1rem;
+		$padding-top:0.3rem;
+		padding:$padding-top $padding-right $padding-bottom $padding-left;
+		.text-info{
+			min-height: 1rem;
+			.name{
+				font-size: 0.24rem;
+				color:#494949;
+			}
+			.info-list{
+				li{
+					span{
+						color:#aaa;
+						font-size: 0.12rem;
+					}
+					.label{
+
+					}
+					.value{
+
+					}
+				}
+			}
+		}
+		.scord-area{
+			display: block;
+			position: absolute;
+			top:$padding-top;
+			right:$padding-right;
+			background-color: #fff;
+			width: 1.0rem;
+			height: 1.0rem;
+			box-sizing: border-box;
+			padding:0.17rem 0.1rem;
+			.score{
+				text-align: center;
+			}
+			.starts{
+				display: table;
+				margin:0px auto;
+			}
+			.num{
+				font-size: 0.12rem;
+				text-align: center;
+				color: #aaa;
+			}
+		}
+	}
+	.linkToScord{
+		padding:0.2rem 0.3rem 0px 0.3rem;
+	}
+}

@@ -8,6 +8,7 @@ declare let Swiper: any;
 export class ZContainerComponent {
     @Input('top') top: string = '0rem';
     @Input('bottom') bottom: string = '0.6rem';
+    @Input('bgColor') bgColor: string = '#fff';
     constructor() {
 
     }

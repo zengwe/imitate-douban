@@ -2,5 +2,5 @@
     <div class="rank">
         <span *ngFor="let itemScore of fullArr" class="rating-star" [ngClass]="{full:score>itemScore,gray:itemScore>score}"></span>
     </div>
-    <span class="show-score">{{score}}</span>
+    <span class="show-score" *ngIf="showScordNum">{{score}}</span>
 </div>

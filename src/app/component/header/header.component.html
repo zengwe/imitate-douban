@@ -1,5 +1,6 @@
-<div class="header-area" [ngStyle]="{borderBottom: borderBottom?'1px solid #494949':'0px none'}">
+<div class="header-area" [ngStyle]="{borderBottom: borderBottom?'1px solid #494949':'0px none',backgroundColor:backgroundColor}">
     <div class="left">
+        <a *ngIf="goBack" (click)="historyBack()"  class="goback-btn"></a>
         <ng-content select=".left"></ng-content>
     </div>
     <div class="middle">

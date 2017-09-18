@@ -3,8 +3,12 @@
         <app-card-block title="影院热映" linkTo="/s/ss">
             <ul class="swiper-wrapper">
                 <li *ngFor="let item of hotMovie" class="swiper-slide item-list">
-                    <a href="">
-                        <app-item-block [movie]="item"></app-item-block>
+                    <a routerLink="detail/{{item.id}}">
+                        <app-item-block [movie]="item">
+                            <div class="star-area">
+                                <app-starts [score]="item.cord"></app-starts>
+                            </div>
+                        </app-item-block>
                     </a>
                 </li>
             </ul>        
@@ -13,7 +17,11 @@
             <ul class="swiper-wrapper">
                 <li *ngFor="let item of playingMovie" class="swiper-slide item-list">
                     <a href="">
-                        <app-item-block [movie]="item"></app-item-block>
+                        <app-item-block [movie]="item">
+                            <div class="star-area">
+                                <app-starts [score]="item.cord"></app-starts>
+                            </div>
+                        </app-item-block>
                     </a>
                 </li>
             </ul>        
@@ -24,9 +32,11 @@
         <app-movie-item-max 
             *ngFor="let movie of youLikes"
             [cover]="movie.poster"
-            [name]="movie.name" [score]="movie.cord" 
+            [name]="movie.name" 
+            [score]="movie.cord" 
             [info]="[{name:'导演',value:getActors(movie.actors,0)},{name:'演员',value:getActors(movie.actors,1)}]" 
             [desc]="'你可能喜欢的电影'">
         </app-movie-item-max>
     </div>  
 </div>
+<router-outlet></router-outlet>

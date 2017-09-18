@@ -1,0 +1,15 @@
+<app-z-container top="0rem" bottom="0rem">
+    <app-header [goBack]="true" [backgroundColor]="'#eeeeee'">
+        <div class="title">电影</div>
+        <ng-container class="right">
+            <app-header-link iconType='share' backgroundSize="70% 70%"></app-header-link>
+        </ng-container>        
+    </app-header>
+    <app-z-container top="0.6rem" bottom="0rem" bgColor="#f5f7f9">
+        <app-info-biger>
+            <app-link-block text="想看"></app-link-block>
+            <app-link-block text="看过" [needStar]="true"></app-link-block>
+        </app-info-biger>    
+    </app-z-container>
+</app-z-container>
+<router-outlet></router-outlet>

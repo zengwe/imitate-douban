@@ -1,0 +1,27 @@
+$height:0.3rem;
+$color:#f3b04b;
+.link-block-component{
+	display: inline-block;
+	//height: $height;
+	box-sizing: border-box;
+	padding:0.06rem 0.2rem;
+	border:1px solid #f3b04b;
+	margin-right:0.2rem;
+	border-radius: 3px;
+	.text{
+		color:#f3b04b;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.stars{
+		display: inline-block;
+		vertical-align: middle;
+		li{
+			display: inline-block;
+			height: 0.2rem;
+			width: 0.2rem;
+			background: url(/assets/icon/rating_star_empty.png) no-repeat center;
+			background-size: 0.18rem 0.18rem;
+		}
+	}
+}

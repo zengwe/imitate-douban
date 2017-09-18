@@ -8,6 +8,7 @@ import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browse
 export class HeaderLinkComponent implements OnInit {
     @Input('iconType') iconType: string = '';
     @Input('iconLink') iconLink: string = '';
+    @Input('backgroundSize') backgroundSize: string = '50% 50%';
     private baseUrl ='/assets/icon/';
     iconSrc='';
     constructor( private _sanitizer: DomSanitizer ) { }
@@ -21,6 +22,9 @@ export class HeaderLinkComponent implements OnInit {
                 break;
             case 'chat':
                 this.iconSrc=this.baseUrl+'ic_chat_green.png';
+                break;
+            case 'share':
+                this.iconSrc = this.baseUrl+'live_share_icon.png';
                 break;
             default:
                 throw new Error("not find this icon and link");

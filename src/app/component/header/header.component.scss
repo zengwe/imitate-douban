@@ -8,6 +8,7 @@
 	left:0px;
 	box-sizing: border-box;
 	.left{
+		//padding-left: 0.2rem;
 		top:0px;
 		height: inherit;
 		display: block;
@@ -15,6 +16,15 @@
 		height: inherit;
 		left:0px;
 		font-size: 0px;
+		.goback-btn{
+			height: 0.6rem;
+			width: 0.6rem;
+			display: inline-block;
+			vertical-align: top;
+			background-color: transparent;
+			background: url(/assets/icon/live_back_icon.png) no-repeat center transparent;
+			background-size: 0.4rem 0.4rem;
+		}
 	}
 	.middle{
 		display: block;
