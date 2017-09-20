@@ -1,6 +1,6 @@
 import { Injectable, Injector } from '@angular/core';
 import { RequestService } from '../request/request.service';
-import { movieListRes, movieRes, questParam } from './movie.struct';
+import { movieListRes, movieRes, questParam,movieDetailRes } from './movie.struct';
 import { errorCode } from '../../common/code';
 @Injectable()
 export class MovieService {
@@ -13,6 +13,15 @@ export class MovieService {
             } else {
                 return [];
             }
+        });
+    }
+    getMovieDetail(id:number):Promise<any>{
+        return this.request.queryServer({url:'/assets/data/movie-detail.json',method:'get'},{id:id}).then((res: movieDetailRes) => {
+            if (res.code === errorCode.OK) {
+                return res.data;
+            } else {
+                return {};
+            }            
         });
     }
 }

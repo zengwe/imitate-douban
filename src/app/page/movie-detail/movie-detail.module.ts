@@ -4,8 +4,10 @@ import { MovieDetailComponent } from './movie-detail.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ZContainerModule } from '../../component/z-container/z-container.module';
 import { HeaderModule } from '../../component/header/header.module';
-import { HeaderLinkModule } from '../../component/header-link/header-link.module';
-import { InfoBigerModule } from '../../component/info-biger/info-biger.module'
+import { InfoBigerModule } from '../../component/info-biger/info-biger.module';
+import { DetailBreifModule } from '../../component/detail-breif/detail-breif.module';
+import { ScrollLeftModule } from '../../component/scroll-left/scroll-left.module';
+import { ItemBlockModule } from '../../component/item-block/item-block.module';
 const router: Routes=[
   {
     path:'',
@@ -19,7 +21,9 @@ const router: Routes=[
     HeaderModule,
     InfoBigerModule,
     RouterModule,
-    HeaderLinkModule,
+    DetailBreifModule,
+    ScrollLeftModule,
+    ItemBlockModule,
     RouterModule.forChild(router)
   ],
   declarations: [

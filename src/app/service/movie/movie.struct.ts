@@ -31,6 +31,9 @@ export interface Movie {
 export interface movieListRes extends serverRes {
 	data: Movie[]
 }
+export interface movieDetailRes extends serverRes{
+	data: Movie
+}
 export interface movieRes extends serverRes {
 	data: Movie
 }

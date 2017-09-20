@@ -1,23 +1,23 @@
 <div class="info-biger-component">
     <div class="posters-area">
-        <div class="poster" [style.backgroundImage]="getBackground('/assets/movie/wujiandao_post.webp')"></div>
+        <div class="poster" [style.backgroundImage]="getBackground(cover)"></div>
     </div>
     <div class="info">
         <div class="text-info">
-            <h2 class="name">无间道</h2>
+            <h2 class="name">{{title}}</h2>
             <ul class="info-list">
-                <li>
-                    <span class="label">导演：</span>
-                    <span class="value">刘德华</span>
+                <li *ngFor="let info of infoArr">
+                    <span class="label">{{info.name}}：</span>
+                    <span class="value">{{info.value}}</span>
                 </li>
             </ul>
         </div>
         <div class="scord-area">
-            <div class="score">7.1</div>
+            <div class="score">{{score}}</div>
             <div class="starts">
-                <app-starts score="7.1" [showScordNum]="false"></app-starts>
+                <app-starts [score]="score" [showScordNum]="false"></app-starts>
             </div>
-            <div class="num">4134123人</div>
+            <div class="num">{{scorePeople}}人</div>
         </div>
     </div>
     <div class="linkToScord">

@@ -1,1 +1,6 @@
-<div class="cover-component" [style.backgroundImage]="getBackground(coverSrc)"></div>
+<a href="">
+	<div class="cover-component" [style.backgroundImage]="getBackground(coverSrc)" [style.height]="height" [style.width]="width"></div>
+	<div class="cover-top">
+		<ng-content></ng-content>
+	</div>
+</a>

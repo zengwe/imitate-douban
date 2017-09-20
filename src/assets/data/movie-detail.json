@@ -1,0 +1,200 @@
+{
+    "code": 100,
+    "desc": "success",
+	"data": {
+		"id": 1,
+		"name": "无间道",
+		"origin_name": "Infernal Affairs / Mou gaan dou",
+		"poster": "/assets/movie/wujiandao_post.webp",
+		"from": "香港",
+		"cord": 9,
+		"cord_pepole_number":10003,
+		"brief": "1991年，香港黑帮紧目标人物韩琛，没料情报被刘健明泄出，双方行动均告失败。但此事将双方均有卧底的事实暴露，引发双方高层清除内鬼的决心。命运迥异又相似的刘健明和陈永仁开始在无间道的旅程中接受严峻考验",
+		"language": "粤语",
+		"images":[
+			"/assets/movie/wujiandao1.webp",
+			"/assets/movie/wujiandao2.webp",
+			"/assets/movie/wujiandao3.webp",
+			"/assets/movie/wujiandao4.webp",
+			"/assets/movie/wujiandao5.webp"
+		],
+		"prevue":"",
+		"actors":[
+			{
+				"id":1,
+				"role_type":0,
+				"index":1,
+				"desc":"导演",
+				"role_name":"",
+				"actor":{
+					"id": 1,
+					"name": "麦兆辉",
+					"head": "/assets/actor/maizhaohui/1.jpg",
+					"images":[
+						"/assets/actor/maizhaohui/2.webp",
+						"/assets/actor/maizhaohui/3.webp",
+						"/assets/actor/maizhaohui/4.webp"
+					],
+					"english_name":"Alan Mak Siu Fai / Mak Siu Fai / Siu Fai Mak",
+					"nick_name":"",
+					"brief":"刘伟强，中国香港著名导演。代表作品有《风云》、《无间道》、《伤城》、《头文字D》等。曾斩获香港电影金像奖、台湾电影金马奖和香港电影金",
+					"gender":1,
+					"family":"",
+					"profession":"导演 / 编剧 / 演员 / 制片",
+					"birth_date":214312312,
+					"birth_addr": "中国香港",
+					"constellation":"处女座",
+					"create_time": 231232311,
+					"update_time": 443214324
+				}                    
+			},
+			{
+				"id":2,
+				"role_type":0,
+				"index":1,
+				"desc":"导演",
+				"role_name":"",
+				"actor":{
+					"id": 1,
+					"name": "刘伟强",
+					"head": "/assets/actor/liuweiqiang/1.jpg",
+					"images":[
+						"/assets/actor/liuweiqiang/2.webp",
+						"/assets/actor/liuweiqiang/3.webp",
+						"/assets/actor/liuweiqiang/4.webp",
+						"/assets/actor/liuweiqiang/5.webp",
+						"/assets/actor/liuweiqiang/6.webp"
+					],
+					"english_name":"Wai-keung Lau / Andrew Lau Wai-Keung",
+					"nick_name":"",
+					"brief":"刘伟强，中国香港著名导演。代表作品有《风云》、《无间道》、《伤城》、《头文字D》等。曾斩获香港电影金像奖、台湾电影金马奖和香港电影金",
+					"gender":1,
+					"family":"",
+					"profession":"导演 / 摄影 / 制片 / 演员 / 编剧",
+					"birth_date":214312312,
+					"birth_addr": "中国香港",
+					"constellation":"处女座",
+					"create_time": 231232311,
+					"update_time": 443214324
+				}                    
+			},                
+			{
+				"id":3,
+				"role_type":1,
+				"index":1,
+				"desc":"演员",
+				"role_name":"刘建明",
+				"actor":{
+					"id": 1,
+					"name": "刘德华",
+					"head": "/assets/actor/liudehua/1.jpg",
+					"images":[
+						"/assets/actor/liudehua/2webp.webp",
+						"/assets/actor/liudehua/3.webp",
+						"/assets/actor/liudehua/4.webp",
+						"/assets/actor/liudehua/5.webp",
+						"/assets/actor/liudehua/6.webp"
+					],
+					"english_name":"Lau Fok Wing",
+					"nick_name":"华仔",
+					"brief":"刘德华，著名演员和歌手。1990年代被封为香港“四大天王”之一，亦是大中华地区极具代表性的艺人之一。 刘德华是个多线发展的艺人：作为歌手，他是吉尼斯世界纪录大全中，获奖最多的香港歌手；",
+					"gender":1,
+					"family":"朱丽倩(妻) / 刘向蕙(女)",
+					"profession":"演员 / 制片 / 导演 / 摄影",
+					"birth_date":214312312,
+					"birth_addr": "中国香港",
+					"constellation":"处女座",
+					"create_time": 231232311,
+					"update_time": 443214324
+				}
+			},
+			{
+				"id":4,
+				"role_type":1,
+				"index":1,
+				"desc":"演员",
+				"role_name":"韩琛",
+				"actor":{
+					"id": 1,
+					"name": "曾志伟",
+					"head": "/assets/actor/zengzhiwei/1.jpg",
+					"images":[
+						"/assets/actor/liangchaowei/2.webp",
+						"/assets/actor/liangchaowei/3.webp",
+						"/assets/actor/liangchaowei/4.webp",
+						"/assets/actor/liangchaowei/5.webp",
+						"/assets/actor/liangchaowei/6.webp"
+					],
+					"profession":"演员,导演,制片,编剧",
+					"english_name":"慈善反斗星 / Danson / 志伟大哥 / 奖门人",
+					"nick_name":"伟仔(昵称) / 老虎(昵称)",
+					"brief":"曾志伟，香港影视演员，在中学毕业后曾任职业足球运动员，后辗转加入电影行业，最初担任龙虎武师。后来涉足编剧工作，并升任导演。加入新艺城后拍摄“最佳拍档”系列电影",
+					"gender":1,
+					"birth_date":214312312,
+					"family":"曾宝仪(女) / 曾国祥(子)",
+					"birth_addr": "中国香港",
+					"constellation":"巨蟹座",
+					"create_time": 231232311,
+					"update_time": 443214324
+				}                    
+			},
+			{
+				"id":5,
+				"role_type":1,
+				"index":1,
+				"desc":"演员",
+				"role_name":"陈永仁",
+				"actor":{
+					"id": 1,
+					"name": "梁朝伟",
+					"head": "/assets/actor/liangchaowei/1.jpg",
+					"images":[
+						"/assets/actor/liangchaowei/2.webp",
+						"/assets/actor/liangchaowei/3.webp",
+						"/assets/actor/liangchaowei/4.webp",
+						"/assets/actor/liangchaowei/5.webp",
+						"/assets/actor/liangchaowei/6.webp"
+					],
+					"english_name":"Leung Chiu Wai / Tony Leung Chiu-Wai",
+					"nick_name":"伟仔(昵称) / 老虎(昵称)",
+					"profession":"演员,导演,制片,编剧",
+					"brief":"梁朝伟，香港男演员，在华人社会颇具影响力，因其出色的演技而囊括多个电影奖项。截至2009年，他是获得香港电影金像奖和台湾电影金马奖最佳男主角最多的人：",
+					"gender":1,
+					"birth_date":214312312,
+					"family":"刘嘉玲(妻)",
+					"birth_addr": "中国香港",
+					"constellation":"巨蟹座",
+					"create_time": 231232311,
+					"update_time": 443214324
+				}                    
+			}                
+		],
+		"publish_time":345245244,
+		"publish_country":"中国香港",
+		"type":[
+			{
+				"id":1,
+				"name":"警匪",
+				"priority":0,
+				"create_time":231232311,
+				"updata_time":545345545
+			},
+			{
+				"id":1,
+				"name":"动作",
+				"priority":0,
+				"create_time":231232311,
+				"updata_time":545345545
+			},
+			{
+				"id":1,
+				"name":"犯罪",
+				"priority":0,
+				"create_time":231232311,
+				"updata_time":545345545
+			}
+		],
+		"create_time":231232311,
+		"update_time":443214324
+	}
+}

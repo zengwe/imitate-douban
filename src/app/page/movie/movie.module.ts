@@ -8,7 +8,7 @@ import { MovieRankModule } from '../../component/movie-rank/movie-rank.module';
 import { MovieItemMaxModule } from '../../component/movie-item-max/movie-item-max.module';
 import { StartsModule } from '../../component/starts/starts.module';
 import { RouterModule, Routes } from '@angular/router';
-
+import { ScrollLeftModule } from '../../component/scroll-left/scroll-left.module';
 const router: Routes=[
     {
         path:'detail/:id',
@@ -24,6 +24,7 @@ const router: Routes=[
         MovieItemMaxModule,
         StartsModule,
         RouterModule,
+        ScrollLeftModule,
         RouterModule.forChild(router)
     ],
     declarations: [

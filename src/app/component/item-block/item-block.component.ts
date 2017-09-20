@@ -6,7 +6,8 @@ import { Movie } from '../../service/movie/movie.struct';
     styleUrls: ['./item-block.component.scss']
 })
 export class ItemBlockComponent implements OnInit {
-    @Input('movie') movie: Movie;
+    @Input('cover') cover: string = '';
+    @Input('coverName') coverName: string = ''; 
     constructor() { }
 
     ngOnInit() {

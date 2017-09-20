@@ -5,11 +5,41 @@
             <app-header-link iconType='share' backgroundSize="70% 70%"></app-header-link>
         </ng-container>        
     </app-header>
-    <app-z-container top="0.6rem" bottom="0rem" bgColor="#f5f7f9">
-        <app-info-biger>
+    <app-z-container top="0.6rem" bottom="0rem" bgColor="#f5f7f9" *ngIf="movie">
+        <app-info-biger
+            [cover]="movie.poster"
+            [title]="movie.name"
+            [infoArr]="[{name:'导演',value:getActor(movie.actors,0)},{name:'演员',value:getActor(movie.actors,1)}]"
+            [score]="movie.cord"
+            [scorePeople]="movie.cord_pepole_number"
+        >
             <app-link-block text="想看"></app-link-block>
             <app-link-block text="看过" [needStar]="true"></app-link-block>
-        </app-info-biger>    
+        </app-info-biger> 
+        <div class="split-line">
+            <span class="line"></span>
+        </div>
+        <div class="store-breif-area">
+            <app-detail-breif title="剧情简介">
+                <app-detail-breif-text>
+                    {{movie.brief}}
+                </app-detail-breif-text>
+            </app-detail-breif>
+            <app-detail-breif title="影人">
+                <app-scroll-left>
+                    <app-per-item *ngFor="let item of movie.actors" class="swiper-slide item-list">
+                        <a href="">
+                            <app-item-block [cover]="item.actor.head" [coverName]="item.actor.name">
+                                <div class="director" *ngIf="item.role_type === 0">导演</div>
+                            </app-item-block>
+                        </a>
+                    </app-per-item>
+                </app-scroll-left>
+            </app-detail-breif>
+            <app-detail-breif title="预告片 / 剧照">
+                    
+            </app-detail-breif>                                
+        </div>
     </app-z-container>
 </app-z-container>
 <router-outlet></router-outlet>

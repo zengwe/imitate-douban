@@ -1,0 +1,19 @@
+$padding-side:0.3rem;
+.split-line{
+	padding:0.3rem $padding-side 0px $padding-side;
+	.line{
+		display: block;
+		height: 1px;
+		width: 100%;
+		background-color: #dfdfdf;
+		//background-color: black;
+	}
+}
+.store-breif-area{
+	padding:0px $padding-side 0px $padding-side;
+}
+.director{
+	color: #a7a7a8;
+	font-size: 0.12rem;
+	text-align: center;
+}

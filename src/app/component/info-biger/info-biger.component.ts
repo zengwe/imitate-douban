@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 @Component({
     selector: 'app-info-biger',
@@ -6,8 +6,12 @@ import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browse
     styleUrls: ['./info-biger.component.scss']
 })
 export class InfoBigerComponent implements OnInit {
+    @Input('cover') cover: string = '';
+    @Input('title') title: string = '';
+    @Input('infoArr') infoArr: { name: string, value: string }[] = [];
+    @Input('score') score: number = 0.0;
+    @Input('scorePeople') scorePeople: number = 0;
     constructor(private _sanitizer: DomSanitizer) { }
-
     ngOnInit() {
     }
     getBackground(image) {
