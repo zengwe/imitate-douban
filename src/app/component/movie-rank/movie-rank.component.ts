@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
 import { MovieService } from '../../service/movie/movie.service';
 import { Movie } from '../../service/movie/movie.struct';
 declare let Swiper: any;
@@ -7,8 +7,8 @@ declare let Swiper: any;
     templateUrl: './movie-rank.component.html',
     styleUrls: ['./movie-rank.component.scss']
 })
-export class MovieRankComponent implements OnInit {
-    titleNameArr = ["豆瓣Top250", "本周口碑榜", "新片榜", "票房榜"];
+export class MovieRankComponent implements OnInit, AfterViewInit, OnDestroy {
+    titleNameArr = ['豆瓣Top250', '本周口碑榜', '新片榜', '票房榜'];
     activeIndex = 0;
     top250Movie: Movie[] = [];
     weekMovieList: Movie[] = [];
@@ -28,7 +28,7 @@ export class MovieRankComponent implements OnInit {
         });
         movieService.getMovieList().then((res: Movie[]) => {
             this.topSailMovieList = res;
-        })
+        });
     }
     ngOnInit() {
     }

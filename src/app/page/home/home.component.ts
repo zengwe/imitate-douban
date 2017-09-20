@@ -7,32 +7,32 @@ import { ArticleService } from '../../service/article/article.service';
     styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-    articleList:articleOfTheme[] =[];
+    articleList: articleOfTheme[] = [];
     constructor(
-        private articleService:ArticleService
+        private articleService: ArticleService
     ) {
-        articleService.homePageDate().then((res)=>{
-            this.articleList=res;
+        articleService.homePageDate().then((res) => {
+            this.articleList = res;
         });
     }
 
     ngOnInit() {
     }
-    isToday(value:number){
+    isToday(value: number) {
         if (value < 999999999) {
-            value * 1000;
+            value = value * 1000;
         }
-        let now = new Date();
-        let getDate = new Date(value);
-        if (now.getFullYear() != getDate.getFullYear()) {         
+        const now = new Date();
+        const getDate = new Date(value);
+        if (now.getFullYear() !== getDate.getFullYear()) {
             return false;
         }
-        if (now.getMonth() != getDate.getMonth()) {  
+        if (now.getMonth() !== getDate.getMonth()) {
             return false;
         }
-        if (now.getDay() != getDate.getDay()) { 
+        if (now.getDay() !== getDate.getDay()) {
             return false;
         }
-        return true;        
+        return true;
     }
 }

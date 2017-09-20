@@ -28,16 +28,18 @@
             <app-detail-breif title="影人">
                 <app-scroll-left>
                     <app-per-item *ngFor="let item of movie.actors" class="swiper-slide item-list">
-                        <a href="">
-                            <app-item-block [cover]="item.actor.head" [coverName]="item.actor.name">
-                                <div class="director" *ngIf="item.role_type === 0">导演</div>
-                            </app-item-block>
-                        </a>
+                        <app-item-block [cover]="item.actor.head" [coverName]="item.actor.name">
+                            <div class="director" *ngIf="item.role_type === 0">导演</div>
+                        </app-item-block>
                     </app-per-item>
                 </app-scroll-left>
             </app-detail-breif>
             <app-detail-breif title="预告片 / 剧照">
-                    
+                <app-swiper-eight  width="85%">
+                    <app-swiper-item *ngFor="let image of movie.images" class="swiper-slide">
+                        <app-cover [coverSrc]="image" height="2.5rem" width="100%"></app-cover>
+                    </app-swiper-item>
+                </app-swiper-eight>
             </app-detail-breif>                                
         </div>
     </app-z-container>

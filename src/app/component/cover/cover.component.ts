@@ -6,9 +6,9 @@ import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browse
     styleUrls: ['./cover.component.scss']
 })
 export class CoverComponent implements OnInit {
-    @Input('coverSrc') coverSrc: string = ''
-    @Input('height') height:string='1.42rem;';
-    @Input('width') width:string='100%';
+    @Input('coverSrc') coverSrc= '';
+    @Input('height') height = '1.42rem;';
+    @Input('width') width = '100%';
     constructor( private _sanitizer: DomSanitizer ) { }
 
     ngOnInit() {

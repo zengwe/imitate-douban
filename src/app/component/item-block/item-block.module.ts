@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ItemBlockComponent } from './item-block.component';
-import { CoverComponent } from '../cover/cover.component';
+import { CoverModule} from '../cover/cover.module';
 import { StartsModule } from '../starts/starts.module';
 @NgModule({
     imports: [
         CommonModule,
-        StartsModule
+        StartsModule,
+        CoverModule
     ],
     declarations: [
-        ItemBlockComponent,
-        CoverComponent
+        ItemBlockComponent
     ],
     exports: [
         ItemBlockComponent

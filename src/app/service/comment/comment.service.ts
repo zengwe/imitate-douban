@@ -3,6 +3,6 @@ import { RequestService } from '../request/request.service';
 @Injectable()
 export class CommentService {
 
-  constructor( private request:RequestService) { }
-
+  constructor( private request: RequestService) { }
+  
 }

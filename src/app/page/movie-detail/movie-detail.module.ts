@@ -8,12 +8,14 @@ import { InfoBigerModule } from '../../component/info-biger/info-biger.module';
 import { DetailBreifModule } from '../../component/detail-breif/detail-breif.module';
 import { ScrollLeftModule } from '../../component/scroll-left/scroll-left.module';
 import { ItemBlockModule } from '../../component/item-block/item-block.module';
-const router: Routes=[
+import { SwiperEightModule } from '../../component/swiper-eight/swiper-eight.module';
+import { CoverModule } from '../../component/cover/cover.module';
+const router: Routes = [
   {
-    path:'',
-    component:MovieDetailComponent
+    path: '',
+    component: MovieDetailComponent
   }
-]
+];
 @NgModule({
   imports: [
     CommonModule,
@@ -24,6 +26,8 @@ const router: Routes=[
     DetailBreifModule,
     ScrollLeftModule,
     ItemBlockModule,
+    SwiperEightModule,
+    CoverModule,
     RouterModule.forChild(router)
   ],
   declarations: [
