@@ -1,0 +1,33 @@
+.comment-discuss-block-component{
+	.choose-tap{
+		position: relative;
+		.choose-item{
+			display: block;
+			font-size: 0px;
+			background-color: #edeff1;
+			li{
+				height: 0.5rem;
+				line-height: 0.5rem;
+				width: 50%;
+				display: inline-block;
+				vertical-align: middle;
+				font-size: 0.16rem;
+				text-align: center;
+				color:#9b9b9b;
+			}
+			.active{
+				color: #333333;
+			}
+		}
+		.active-botton-line{
+			position: absolute;
+			bottom: 0px;
+			left:0%;
+			display: block;
+			width: 50%;
+			height: 1px;
+			background: #9b9b9b;
+			transition: all 0.5s;
+		}
+	}
+}

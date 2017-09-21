@@ -40,8 +40,11 @@
                         <app-cover [coverSrc]="image" height="2.5rem" width="100%"></app-cover>
                     </app-swiper-item>
                 </app-swiper-eight>
-            </app-detail-breif>                                
+            </app-detail-breif>                            
         </div>
+        <app-comment-discuss-block class="need-split-space" [fromId]="movie.id" type="movie">
+                
+        </app-comment-discuss-block>            
     </app-z-container>
 </app-z-container>
 <router-outlet></router-outlet>

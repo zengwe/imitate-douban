@@ -7,9 +7,10 @@ export interface comment {
 	content: number,
 	type: number,
 	type_id: number,
-	likes: number
+	likes: number,
+	user:user
 }
-export interface movieCommentServerRes extends serverRes {
+export interface commentServerRes extends serverRes {
 	data: comment[]
 }
 export interface QuestParem {

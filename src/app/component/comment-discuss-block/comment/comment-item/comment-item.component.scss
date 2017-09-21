@@ -1,0 +1,77 @@
+.comment-item-component{
+	font-size: 0px;
+	.user-head{
+		display: inline-block;
+		vertical-align: top;
+		width: 10%;
+		.header-area{
+			display: block;
+			width: 100%;
+			padding-top:100%;
+			border-radius: 50%;
+			background-size: cover;
+			background-color: #fafafa;
+			background-position-x: center;
+			background-position-y: center;			
+		}
+	}
+	.comment{
+		display: inline-block;
+		vertical-align: top;
+		width: 90%;
+		box-sizing: border-box;
+		padding-left: 0.12rem;
+		padding-top:0.11rem;
+		.comment-info{
+			overflow: hidden;
+			.info-left{
+				float: left;
+				.user-name{
+					display: inline-block;
+					vertical-align: middle;
+					font-size: 0.18rem;
+					color: #494949;
+				}
+				.star-area{
+					display:inline-block;
+					vertical-align: middle;
+					position: relative;
+					top:0.02rem;
+					padding-left: 0.1rem;
+				}
+			}
+			.likes-btn{
+				$icon-width:0.24rem;
+				float: right;
+				.like-icon{
+					$icon-width:0.24rem;
+					height: $icon-width;
+					width: $icon-width;
+					display: inline-block;
+					vertical-align: middle;
+					background: url('/assets/icon/ic_fill_voted_large.png') no-repeat center;
+					background-size: $icon-width $icon-width;
+				}
+				span{
+					display: inline-block;
+					vertical-align: middle;
+					font-size: 0.12rem;
+					color: #aaa;			
+				}
+			}
+		}
+		.comment-detail{
+			padding-top:0.08rem;
+			padding-bottom:0.2rem;
+			.content{
+				font-size: 0.14rem;
+				letter-spacing: 0.02rem;				
+			}
+			.time{
+				font-size: 0.14rem;
+				color:#aaa;
+				padding-top:0.1rem;
+			}
+		}
+	}
+}

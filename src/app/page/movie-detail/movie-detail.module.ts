@@ -10,6 +10,7 @@ import { ScrollLeftModule } from '../../component/scroll-left/scroll-left.module
 import { ItemBlockModule } from '../../component/item-block/item-block.module';
 import { SwiperEightModule } from '../../component/swiper-eight/swiper-eight.module';
 import { CoverModule } from '../../component/cover/cover.module';
+import { CommentDiscussBlockModule } from '../../component/comment-discuss-block/comment-discuss-block.module';
 const router: Routes = [
   {
     path: '',
@@ -28,6 +29,7 @@ const router: Routes = [
     ItemBlockModule,
     SwiperEightModule,
     CoverModule,
+    CommentDiscussBlockModule,
     RouterModule.forChild(router)
   ],
   declarations: [

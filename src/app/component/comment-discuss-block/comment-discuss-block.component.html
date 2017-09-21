@@ -1,0 +1,17 @@
+<div class="comment-discuss-block-component">
+    <div class="choose-tap">
+        <ul class="choose-item">
+            <li [ngClass]="{active: activeComponent==0}" (click)="changeActiveComponent(0)">评论</li>
+            <li [ngClass]="{active: activeComponent==1}" (click)="changeActiveComponent(1)">讨论</li>
+        </ul>
+        <span class="active-botton-line" [ngStyle]="{left:activeComponent == 0? '0%':'50%'}"></span>
+    </div>
+    <div class="content">
+        <div class="comment" *ngIf="activeComponent==0">
+            <app-comment [id]="fromId" [type]="type"></app-comment>
+        </div>
+        <div class="discuss" *ngIf="activeComponent==1">
+            <app-discuss-list></app-discuss-list>
+        </div>
+    </div>
+</div>
