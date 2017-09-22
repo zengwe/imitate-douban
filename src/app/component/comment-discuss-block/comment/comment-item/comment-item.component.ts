@@ -25,6 +25,7 @@ export class CommentItemComponent implements OnInit {
         return this._sanitizer.bypassSecurityTrustStyle(`linear-gradient( rgba(29, 29, 29, 0), rgba(16, 16, 23, 0.5)), url(${image})`);
     }
     triggerVote(){
+        this.vote+=1;
         this.clickVote.emit();
     }
 }

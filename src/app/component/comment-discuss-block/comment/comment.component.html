@@ -4,6 +4,15 @@
         <a class="link btn">写短评</a>
     </div>
     <div class="comment-list">
-        <app-comment-item></app-comment-item>
+        <app-comment-item 
+            *ngFor="let comment of comments"
+            [header]="comment.user.header"
+            [username]="comment.user.name"
+            [score]="comment.cord"
+            [(vote)] = "comment.likes"
+            [content]="comment.content"
+            [time]="comment.create_time"
+            (click)="voteToComment(comment.id)"
+        ></app-comment-item>
     </div>
 </div>

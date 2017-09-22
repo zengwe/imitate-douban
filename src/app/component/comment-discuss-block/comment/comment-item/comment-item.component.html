@@ -5,21 +5,21 @@
     <div class="comment">
         <div class="comment-info">
             <div class="info-left">
-                <span class="user-name">zengwe</span>
+                <span class="user-name">{{username}}</span>
                 <div class="star-area">
-                   <app-starts score="9" [showScordNum]="false"></app-starts> 
+                   <app-starts [score]="score" [showScordNum]="false"></app-starts> 
                 </div>   
             </div>
             <div class="likes-btn"  (click)="triggerVote()">
                 <i class="like-icon"></i>
-                <span>695</span>               
+                <span>{{vote}}</span>               
             </div>
         </div>
         <div class="comment-detail">
             <div class="content">
-                最后那一下爆头，刘德华和梁朝伟的眼神里都是震惊，他死在电梯里，电梯门来回的开关，我们也从震惊中恢复，觉得残酷，谁说的，好人有好报，那些为民除害的，都死了。会有人惦记着他们吗？把他们视为英雄吗？又有什么用呢，这个社会还不都是恶人当道。            
+                {{content}}            
             </div>
-            <div class="time">1天前</div>             
+            <div class="time">{{time | timeHorizon}}</div>             
         </div>
     </div>
 </div>

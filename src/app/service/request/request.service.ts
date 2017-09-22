@@ -39,7 +39,6 @@ export class RequestService {
     }
     checkResponeCode(res: Response) {
         const serverResponse = res.json() as { code: number, desc: string, data: any };
-
         return serverResponse;
     }
     queryServer(query: { url: string, method: string }, param: any): Promise<any> {
