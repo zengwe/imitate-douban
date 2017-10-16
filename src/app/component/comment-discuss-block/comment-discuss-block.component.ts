@@ -7,13 +7,13 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class CommentDiscussBlockComponent implements OnInit {
   activeComponent = 0; // 0: 评论；1：讨论
-  @Input('fromId') fromId:number;
-  @Input('type') type:string;
+  @Input('fromId') fromId: number;
+  @Input('type') type: string;
   constructor() { }
 
   ngOnInit() {
   }
-  changeActiveComponent(activeNum:number){
-    this.activeComponent=activeNum;
+  changeActiveComponent(activeNum: number) {
+    this.activeComponent = activeNum;
   }
 }

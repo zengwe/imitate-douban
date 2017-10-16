@@ -7,12 +7,12 @@ declare let Swiper: any;
 })
 export class CardBlockComponent implements OnInit {
     @ViewChild('itemTarget') itemTarget: ElementRef;
-    @Input('title') title: string = '标题';
-    @Input('linkTo') linkTo: string ='';
-    containerName="container";
-    private swiperInstance=null;
+    @Input('title') title = '标题';
+    @Input('linkTo') linkTo = '';
+    containerName = 'container';
+    private swiperInstance = null;
     constructor() {
-        //this.containerName=this.containerName+String(this.GetRandomNum(1,100000000000));
+        //  this.containerName=this.containerName+String(this.GetRandomNum(1,100000000000));
     }
     ngOnInit() {
     }
@@ -32,12 +32,12 @@ export class CardBlockComponent implements OnInit {
     //         this.swiperInstance.update();
     //     }
     // }
-    // private GetRandomNum(Min:number,Max:number):number{   
-    //     let Range = Max - Min;   
-    //     let Rand = Math.random();   
-    //     return(Min + Math.round(Rand * Range));   
+    // private GetRandomNum(Min:number,Max:number):number{
+    //     let Range = Max - Min;
+    //     let Rand = Math.random();
+    //     return(Min + Math.round(Rand * Range));
     // }
     // ngOnDestroy(){
     //     this.swiperInstance.destroy();
-    // }     
+    // }
 }

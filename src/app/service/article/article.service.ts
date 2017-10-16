@@ -5,14 +5,14 @@ import { articleOfTheme } from './article.struct';
 export class ArticleService {
 
     constructor(
-        private request:RequestService
+        private request: RequestService
     ) {
 
     }
-    homePageDate():Promise<any>{
-        return new Promise((resolve,reject)=>{
-            console.log("请求首页数据");
-            let articleList:articleOfTheme[] = [
+    homePageDate(): Promise<any> {
+        return new Promise((resolve, reject) => {
+            console.log('请求首页数据');
+            const articleList: articleOfTheme[] = [
                 {
                     time: new Date().getTime(),
                     content: {
@@ -51,12 +51,12 @@ export class ArticleService {
                                 ],
                                 auth: 'tianshi',
                                 from: ''
-                            }                            
+                            }
                         ]
                     }
                 },
                 {
-                    time: new Date().getTime()-150600000,
+                    time: new Date().getTime() - 150600000,
                     content: {
                         theme: '一刻',
                         color: 'red',
@@ -72,7 +72,7 @@ export class ArticleService {
                         ]
                     }
                 },
-            ];            
+            ];
             resolve(articleList);
         });
     }

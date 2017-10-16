@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./detail-breif.component.scss']
 })
 export class DetailBreifComponent implements OnInit {
-  @Input('title') title:string = '';
+  @Input('title') title = '';
   constructor() { }
 
   ngOnInit() {

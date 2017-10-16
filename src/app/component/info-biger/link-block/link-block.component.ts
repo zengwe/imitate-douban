@@ -6,8 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./link-block.component.scss']
 })
 export class LinkBlockComponent implements OnInit {
-  @Input('needStar') needStar: boolean = false;
-  @Input('text') text: string = '想看';
+  @Input('needStar') needStar = false;
+  @Input('text') text = '想看';
   constructor() { }
 
   ngOnInit() {
